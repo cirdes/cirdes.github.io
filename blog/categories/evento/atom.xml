@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Evento | Cirdes Henrique]]></title>
+  <link href="http://cirdes.github.com/blog/categories/evento/atom.xml" rel="self"/>
+  <link href="http://cirdes.github.com/"/>
+  <updated>2013-08-25T14:31:15-03:00</updated>
+  <id>http://cirdes.github.com/</id>
+  <author>
+    <name><![CDATA[Cirdes Henrique]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[2nd Open Meeting Pernambuco.js]]></title>
+    <link href="http://cirdes.github.com/blog/2013/08/21/2nd-open-meeting-pernambuco-dot-js/"/>
+    <updated>2013-08-21T11:52:00-03:00</updated>
+    <id>http://cirdes.github.com/blog/2013/08/21/2nd-open-meeting-pernambuco-dot-js</id>
+    <content type="html"><![CDATA[<h2>O Evento</h2>
+
+<hr />
+
+<p>Na semana passada, dia 14 de agosto, tivemos o segundo encontro do <a href="https://www.facebook.com/groups/pernambucojs/">Pernambuco.JS</a> na Faculdade Marista. Os meetups, sem dúvida, são extremamente importantes por reunir os profissionais de desenvolvimento web de Pernambuco e possibilitar uma disseminação de conhecimento.</p>
+
+<p>Palestrantes com pouca experiência e temas não abordados com frequência são o diferencial dos meetups em relação aos grandes eventos. Nesse último, recebi o convite para falar sobre minha experiência com <a href="http://angularjs.org/">AngularJS</a> juntamente com <a href="https://www.facebook.com/ramon.victor">Ramon Victor</a>.</p>
+
+<p><img src="/images/post_5/banner_2ndmeeting.png" title="2nd Open Meeting" alt="2nd Open Meeting" /></p>
+
+<!-- more -->
+
+
+<h2>Palestras</h2>
+
+<hr />
+
+<h2>AngularJS (Cirdes Henrique - Eventick e Ramon Victor -  Joy Street)</h2>
+
+<p>A palestra sobre <a href="http://angularjs.org/">AngularJS</a> foi feita sobre duas pespectivas. A primeira foi a minha, um desenvolvedor Ruby on Rails que encontrava dificuldades para organizar e testar seu código javascript. A segunda foi a de <a href="https://www.facebook.com/ramon.victor">Ramon</a>, desenvolvedor frontend com experiência em <a href="http://jquery.com/">Jquery</a> que buscava aumentar sua produtividade. O AngularJS ganhou muito popularidade recentemente, sendo o framework mais buscado no Google. Os 5 conceitos básicos do framework são: Client-Side Templates, MVC, Data Binding, Dependency Injection e Directives. Com angular é possível escrever código facilmente testável em apenas poucas linhas.</p>
+
+<script async class="speakerdeck-embed" data-id="406c42c0e77f013025e006b7ac3a0202" data-ratio="1.2994923857868" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<h2>Getting Started with Firefox OS (Guilherme Farias - MGR Tecnologia)</h2>
+
+<p><a href="https://www.facebook.com/Guiky">Guilherme Farias</a> falou um pouco sobre o novo <a href="http://www.mozilla.org/pt-BR/firefox/os/">Firefox OS</a>. A ideia é possibilitar o desenvolvimento de apps mobile utilizando HTML + CSS. O mais interessante foi descobrir que dentro do Firefox OS roda o <a href="http://pt.wikipedia.org/wiki/Gecko_Mozilla">Gecko</a>, engine de renderização do Firefox. Dessa forma, apps que rodam no firefox podem ser facilmente portados para o Firefox OS.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25261533" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/guiky/firefoxos-plataforma-open-web" title="FirefoxOS - A plataforma Open Web" target="_blank">FirefoxOS - A plataforma Open Web</a> </strong> from <strong><a href="http://www.slideshare.net/guiky" target="_blank">Guilherme Farias</a></strong> </div></p>
+
+<h2>Testes e automação com PhantomJS e CasperJS (Henrique Vicente)</h2>
+
+<p><a href="http://phantomjs.org/">PhantomJS</a> e <a href="http://casperjs.org/">CasperJS</a> foram os assuntos abordados por <a href="https://www.facebook.com/henvic">Henrique Vicente</a>. O PhantomJS é um browser headless, ou seja, um browser especial sem interface gráfica. Os browsers headless são bastante utilizados em ambiente de teste. A vantagem do PhantomJS sobre os navegadores convecionais; Chrome ou Firefox é a possibilidade de acelerar seus testes de aceitação, evitando que durante o seus testes seja preciso carregar na memória uma interface gráfica.
+O CasperJS é uma alternativa aos frameworks <a href="https://github.com/jnicklas/capybara">Capybara</a>(ruby) e <a href="http://splinter.cobrateam.info/">Splinter</a>(python) para se escrever testes de aceitação. Uma das principais vantagens do CasperJS é que você escreve seus teste em Javascript, o que facilita para diversos desenvolvedores.</p>
+
+<script async class="speakerdeck-embed" data-id="e47176e0e76201309088261ea83b1a05" data-ratio="1.2994923857868" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<h2>Meteor (Flávio Junior - Barganhou.la)</h2>
+
+<p>Sem dúvida o <a href="http://www.meteor.com/">Meteor</a> é um framework bastante promissor para se construir web apps, <a href="https://www.facebook.com/flaviojuvenal">Flávio Junior</a> demostrou suas caracteristicas e detalhou o funcionamento de uma aplicação de leaderboard.
+O framework é todo em Javascript, tanto a parte do servidor quanto a do cliente. Com o meteor é possível acessar dados persistidos em banco como se eles estivem no navegador.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25262488" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/flaviojuvenal/comeando-com-meteor-25262488" title="Começando com meteor" target="_blank">Começando com meteor</a> </strong> from <strong><a href="http://www.slideshare.net/flaviojuvenal" target="_blank">Flávio Junior</a></strong> </div></p>
+
+<h2>Something about the future of JS (Luiz Tiago - MGR Tecnologia)</h2>
+
+<p>Na última palestra da noite, <a href="https://www.facebook.com/luiztiago">Luiz Tiago</a> falou sobre o futuro do JS. Através de um exemplo real, ele utilizou a api do Twitter para montar uma lista com os últimos tweets. Através da utilização de templates, proposto no último draft sobre <a href="http://www.w3.org/TR/2013/WD-components-intro-20130606/">Web Components</a>, Luiz Tiago falou das suas vantagens. Para finalizar, tivemos uma demostração do <a href="https://dvcs.w3.org/hg/dap/raw-file/default/light/Overview.html">Ambient Ligth Events</a>. Essa especificação, disponível no apenas no Firefox 22+ até o momento, permite que mudanças na intensidade de iluminação sejam detectadas. Durante a palestras, um demo de uma formiga que se movia apenas quando as luzes eram apagas foi apresentado.</p>
+
+<h2>Por fim</h2>
+
+<p>Gostaria de agradecer a Luiz Tiago e ao PernambucoJS pela organização do evento e o convite para palestrar sobre AngularJS. Os temas que foram abordados são extremante recentes, o evento foi uma grande oportunidade para se atualizar e saber como o Javascript está evoluindo.</p>
+
+<p>Como desenvolvedor, participar de eventos como o Meetup do PernambucoJS faz toda a diferença. Poder aprender e compartilhar conhecimento com a comunidade é importante para que o <a href="http://www.eventick.com.br/">Eventick</a>, <a href="http://www.mgrtech.com.br/">MGR</a> e as demais empresas possam mostrar que em Pernambuco temos desenvolvedores excepcionais e de grande destaque no mercado.</p>
+
+<p>Como palestrante, foi uma privilégio falar sobre Javascript para desenvolvedores que admiro como <a href="https://www.facebook.com/eduardo.lundgren">Eduardo Lundgren</a> e <a href="https://www.facebook.com/zenorocha">Zeno Rocha</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

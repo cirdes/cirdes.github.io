@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby on Rails | Cirdes Henrique]]></title>
+  <link href="http://cirdes.github.com/blog/categories/ruby-on-rails/atom.xml" rel="self"/>
+  <link href="http://cirdes.github.com/"/>
+  <updated>2013-08-25T14:31:15-03:00</updated>
+  <id>http://cirdes.github.com/</id>
+  <author>
+    <name><![CDATA[Cirdes Henrique]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Monitorando exceções em aplicações web: migrando do Airbrake para o Errbit]]></title>
+    <link href="http://cirdes.github.com/blog/2013/03/11/monitorando-excecoes-em-aplicacoes-web-migrando-do-airbrake-para-o-errbit/"/>
+    <updated>2013-03-11T10:04:00-03:00</updated>
+    <id>http://cirdes.github.com/blog/2013/03/11/monitorando-excecoes-em-aplicacoes-web-migrando-do-airbrake-para-o-errbit</id>
+    <content type="html"><![CDATA[<h2>Introdução</h2>
+
+<hr />
+
+<p>Para quem não conhece, algumas ferramentas são capazes de coletar e gerenciar erros em aplicações web. No <a href="http://eventick.com.br/">Eventick</a>, todos os erros são monitorados. Tentamos corrigir e contactar nossos usuários antes deles nos enviarem emails. Existem três ferramentas bem conhecidas que fazem esse trabalho, o <a href="http://airbrake.io/">AirBrake</a>, o <a href="http://www.exceptional.io/">Exceptional</a> e o <a href="https://github.com/errbit/errbit">Errbit</a>. Nesse post falarei das vantagens do Errbit e como migrar do AirBrake.</p>
+
+<h2>AirBrake</h2>
+
+<hr />
+
+<p>O AirBrake é um serviço excelente, ele foi adquirido pelo Exceptional. Os dois serviços apresentam funcionalidades parecidas mas irei limitar-me a falar sobre o primeiro pois foi o serviço que utilizei por pouca mais de um ano.</p>
+
+<p>O principal vantagem do AirBrake é que ele funciona como Software as a Service. Além disso, existe um addon para o Heroku que simplifica sua configuração.
+Durante um bom tempo fomos muito felizes com o AirBrake, sem dúvida foi o melhor addon do heroku que utilizamos. Até conhecer o Errbit e concluir que o AirBrake não era tão bom assim. Nesse período de um ano ele mudou pouca coisa.</p>
+
+<h2>Problemas</h2>
+
+<ul>
+<li>Preço: O plano básico custa $25 doláres. Não é caro, o problema é pagar $25 e mesmo assim ter menos recursos que uma alternativa gratuita.</li>
+<li>Limitações: Apenas 1 projeto e 1 usuário no plano free.</li>
+</ul>
+
+
+<!-- more -->
+
+
+<h2>Errbit</h2>
+
+<hr />
+
+<p>O Errbit é um projeto em rails, open source e 100% compatível com o airbreak. Suporta Ruby on Rails, Python e PHP. Ele apresenta algumas vantagens que me fizeram sair do AirBreak.</p>
+
+<p><img src="/images/post_4/errbit.png" title="Errbit" alt="Errbit" /></p>
+
+<h2>Vantagens</h2>
+
+<ul>
+<li><p>Intervalo de emails: Por padrão, a cada 1, 10 e 100 erros o errbit envia uma notificação por email. Um erro que aconteceu uma vez provavelmente tem uma prioridade muito menor do que um que já aconteceu 100 vezes.</p></li>
+<li><p>Agrupamento de notificações: Permite que notificações similares sejam agrupadas.</p></li>
+<li><p>Suporta comentários: É possível adicionar comentários as notificações de erro.</p></li>
+<li><p>Backtrace fácil de ler: Ao visualizar o backtrace é possível ir direto para linha de código com erro no github.</p></li>
+<li><p>Open source: É uma aplicação rails de código aberto que você pode modificar para atender melhor suas necessidades.</p></li>
+<li><p>Free: Ela é gratuita e sem limitações.</p></li>
+<li><p>Oauth com github: É possível logar com sua conta do Github</p></li>
+<li><p>Javascript: Ela também detecta erros em javascript</p></li>
+</ul>
+
+
+<p>Apesar de todas essas vantagens, manter uma máquina virtual com o Errbit é um retrocesso visto que no AirBrake eu não precisava me preocupar com isso. A solução é hospedar no Heroku.</p>
+
+<h2>Instalação</h2>
+
+<ul>
+<li>Clonar o projeto</li>
+</ul>
+
+
+<p><code>git clone git://github.com/errbit/errbit.git</code></p>
+
+<ul>
+<li>Criar e configurar uma instância no heroku</li>
+</ul>
+
+
+<p><code>gem install heroku</code></p>
+
+<p><code>heroku create example-errbit --stack cedar</code></p>
+
+<p><code>heroku addons:add mongolab:starter</code></p>
+
+<p><code>heroku addons:add sendgrid:starter</code></p>
+
+<p><code>heroku config:add HEROKU=true</code></p>
+
+<p><code>heroku config:add SECRET_TOKEN="$(bundle exec rake secret)"</code></p>
+
+<p><code>heroku config:add ERRBIT_HOST=some-hostname.example.com</code></p>
+
+<p><code>heroku config:add ERRBIT_EMAIL_FROM=example@example.com</code></p>
+
+<p><code>heroku remote add heroku git@heroku.com:projet-name.git</code></p>
+
+<p><code>git push heroku master</code></p>
+
+<ul>
+<li>Criar o banco e o usuário padrão</li>
+</ul>
+
+
+<p><code>heroku run rake db:seed --app app-name</code></p>
+
+<p>Pronto, seu errbit já está hospedado no heroku. Agora basta entrar nele utilizando o usuário e senha padrão e criar um novo projeto.
+Email: demo@errbit-demo.herokuapp.com
+Password: password</p>
+
+<p>Com projeto criado, basta adicionar a sua aplicação rails a gem <a href="https://github.com/cloudfuji/airbrake_user_attributes">airbrake_user_attributes</a> e o arquivo de configuração gerado ao criar um novo projeto.</p>
+]]></content>
+  </entry>
+  
+</feed>

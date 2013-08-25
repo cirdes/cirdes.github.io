@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Cirdes Henrique]]></title>
+  <link href="http://cirdes.github.com/atom.xml" rel="self"/>
+  <link href="http://cirdes.github.com/"/>
+  <updated>2013-08-25T14:31:15-03:00</updated>
+  <id>http://cirdes.github.com/</id>
+  <author>
+    <name><![CDATA[Cirdes Henrique]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[2nd Open Meeting Pernambuco.js]]></title>
+    <link href="http://cirdes.github.com/blog/2013/08/21/2nd-open-meeting-pernambuco-dot-js/"/>
+    <updated>2013-08-21T11:52:00-03:00</updated>
+    <id>http://cirdes.github.com/blog/2013/08/21/2nd-open-meeting-pernambuco-dot-js</id>
+    <content type="html"><![CDATA[<h2>O Evento</h2>
+
+<hr />
+
+<p>Na semana passada, dia 14 de agosto, tivemos o segundo encontro do <a href="https://www.facebook.com/groups/pernambucojs/">Pernambuco.JS</a> na Faculdade Marista. Os meetups, sem dúvida, são extremamente importantes por reunir os profissionais de desenvolvimento web de Pernambuco e possibilitar uma disseminação de conhecimento.</p>
+
+<p>Palestrantes com pouca experiência e temas não abordados com frequência são o diferencial dos meetups em relação aos grandes eventos. Nesse último, recebi o convite para falar sobre minha experiência com <a href="http://angularjs.org/">AngularJS</a> juntamente com <a href="https://www.facebook.com/ramon.victor">Ramon Victor</a>.</p>
+
+<p><img src="http://cirdes.github.com/images/post_5/banner_2ndmeeting.png" title="2nd Open Meeting" alt="2nd Open Meeting" /></p>
+
+<!-- more -->
+
+
+<h2>Palestras</h2>
+
+<hr />
+
+<h2>AngularJS (Cirdes Henrique - Eventick e Ramon Victor -  Joy Street)</h2>
+
+<p>A palestra sobre <a href="http://angularjs.org/">AngularJS</a> foi feita sobre duas pespectivas. A primeira foi a minha, um desenvolvedor Ruby on Rails que encontrava dificuldades para organizar e testar seu código javascript. A segunda foi a de <a href="https://www.facebook.com/ramon.victor">Ramon</a>, desenvolvedor frontend com experiência em <a href="http://jquery.com/">Jquery</a> que buscava aumentar sua produtividade. O AngularJS ganhou muito popularidade recentemente, sendo o framework mais buscado no Google. Os 5 conceitos básicos do framework são: Client-Side Templates, MVC, Data Binding, Dependency Injection e Directives. Com angular é possível escrever código facilmente testável em apenas poucas linhas.</p>
+
+<script async class="speakerdeck-embed" data-id="406c42c0e77f013025e006b7ac3a0202" data-ratio="1.2994923857868" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<h2>Getting Started with Firefox OS (Guilherme Farias - MGR Tecnologia)</h2>
+
+<p><a href="https://www.facebook.com/Guiky">Guilherme Farias</a> falou um pouco sobre o novo <a href="http://www.mozilla.org/pt-BR/firefox/os/">Firefox OS</a>. A ideia é possibilitar o desenvolvimento de apps mobile utilizando HTML + CSS. O mais interessante foi descobrir que dentro do Firefox OS roda o <a href="http://pt.wikipedia.org/wiki/Gecko_Mozilla">Gecko</a>, engine de renderização do Firefox. Dessa forma, apps que rodam no firefox podem ser facilmente portados para o Firefox OS.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25261533" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/guiky/firefoxos-plataforma-open-web" title="FirefoxOS - A plataforma Open Web" target="_blank">FirefoxOS - A plataforma Open Web</a> </strong> from <strong><a href="http://www.slideshare.net/guiky" target="_blank">Guilherme Farias</a></strong> </div></p>
+
+<h2>Testes e automação com PhantomJS e CasperJS (Henrique Vicente)</h2>
+
+<p><a href="http://phantomjs.org/">PhantomJS</a> e <a href="http://casperjs.org/">CasperJS</a> foram os assuntos abordados por <a href="https://www.facebook.com/henvic">Henrique Vicente</a>. O PhantomJS é um browser headless, ou seja, um browser especial sem interface gráfica. Os browsers headless são bastante utilizados em ambiente de teste. A vantagem do PhantomJS sobre os navegadores convecionais; Chrome ou Firefox é a possibilidade de acelerar seus testes de aceitação, evitando que durante o seus testes seja preciso carregar na memória uma interface gráfica.
+O CasperJS é uma alternativa aos frameworks <a href="https://github.com/jnicklas/capybara">Capybara</a>(ruby) e <a href="http://splinter.cobrateam.info/">Splinter</a>(python) para se escrever testes de aceitação. Uma das principais vantagens do CasperJS é que você escreve seus teste em Javascript, o que facilita para diversos desenvolvedores.</p>
+
+<script async class="speakerdeck-embed" data-id="e47176e0e76201309088261ea83b1a05" data-ratio="1.2994923857868" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<h2>Meteor (Flávio Junior - Barganhou.la)</h2>
+
+<p>Sem dúvida o <a href="http://www.meteor.com/">Meteor</a> é um framework bastante promissor para se construir web apps, <a href="https://www.facebook.com/flaviojuvenal">Flávio Junior</a> demostrou suas caracteristicas e detalhou o funcionamento de uma aplicação de leaderboard.
+O framework é todo em Javascript, tanto a parte do servidor quanto a do cliente. Com o meteor é possível acessar dados persistidos em banco como se eles estivem no navegador.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25262488" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/flaviojuvenal/comeando-com-meteor-25262488" title="Começando com meteor" target="_blank">Começando com meteor</a> </strong> from <strong><a href="http://www.slideshare.net/flaviojuvenal" target="_blank">Flávio Junior</a></strong> </div></p>
+
+<h2>Something about the future of JS (Luiz Tiago - MGR Tecnologia)</h2>
+
+<p>Na última palestra da noite, <a href="https://www.facebook.com/luiztiago">Luiz Tiago</a> falou sobre o futuro do JS. Através de um exemplo real, ele utilizou a api do Twitter para montar uma lista com os últimos tweets. Através da utilização de templates, proposto no último draft sobre <a href="http://www.w3.org/TR/2013/WD-components-intro-20130606/">Web Components</a>, Luiz Tiago falou das suas vantagens. Para finalizar, tivemos uma demostração do <a href="https://dvcs.w3.org/hg/dap/raw-file/default/light/Overview.html">Ambient Ligth Events</a>. Essa especificação, disponível no apenas no Firefox 22+ até o momento, permite que mudanças na intensidade de iluminação sejam detectadas. Durante a palestras, um demo de uma formiga que se movia apenas quando as luzes eram apagas foi apresentado.</p>
+
+<h2>Por fim</h2>
+
+<p>Gostaria de agradecer a Luiz Tiago e ao PernambucoJS pela organização do evento e o convite para palestrar sobre AngularJS. Os temas que foram abordados são extremante recentes, o evento foi uma grande oportunidade para se atualizar e saber como o Javascript está evoluindo.</p>
+
+<p>Como desenvolvedor, participar de eventos como o Meetup do PernambucoJS faz toda a diferença. Poder aprender e compartilhar conhecimento com a comunidade é importante para que o <a href="http://www.eventick.com.br/">Eventick</a>, <a href="http://www.mgrtech.com.br/">MGR</a> e as demais empresas possam mostrar que em Pernambuco temos desenvolvedores excepcionais e de grande destaque no mercado.</p>
+
+<p>Como palestrante, foi uma privilégio falar sobre Javascript para desenvolvedores que admiro como <a href="https://www.facebook.com/eduardo.lundgren">Eduardo Lundgren</a> e <a href="https://www.facebook.com/zenorocha">Zeno Rocha</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Monitorando exceções em aplicações web: migrando do Airbrake para o Errbit]]></title>
+    <link href="http://cirdes.github.com/blog/2013/03/11/monitorando-excecoes-em-aplicacoes-web-migrando-do-airbrake-para-o-errbit/"/>
+    <updated>2013-03-11T10:04:00-03:00</updated>
+    <id>http://cirdes.github.com/blog/2013/03/11/monitorando-excecoes-em-aplicacoes-web-migrando-do-airbrake-para-o-errbit</id>
+    <content type="html"><![CDATA[<h2>Introdução</h2>
+
+<hr />
+
+<p>Para quem não conhece, algumas ferramentas são capazes de coletar e gerenciar erros em aplicações web. No <a href="http://eventick.com.br/">Eventick</a>, todos os erros são monitorados. Tentamos corrigir e contactar nossos usuários antes deles nos enviarem emails. Existem três ferramentas bem conhecidas que fazem esse trabalho, o <a href="http://airbrake.io/">AirBrake</a>, o <a href="http://www.exceptional.io/">Exceptional</a> e o <a href="https://github.com/errbit/errbit">Errbit</a>. Nesse post falarei das vantagens do Errbit e como migrar do AirBrake.</p>
+
+<h2>AirBrake</h2>
+
+<hr />
+
+<p>O AirBrake é um serviço excelente, ele foi adquirido pelo Exceptional. Os dois serviços apresentam funcionalidades parecidas mas irei limitar-me a falar sobre o primeiro pois foi o serviço que utilizei por pouca mais de um ano.</p>
+
+<p>O principal vantagem do AirBrake é que ele funciona como Software as a Service. Além disso, existe um addon para o Heroku que simplifica sua configuração.
+Durante um bom tempo fomos muito felizes com o AirBrake, sem dúvida foi o melhor addon do heroku que utilizamos. Até conhecer o Errbit e concluir que o AirBrake não era tão bom assim. Nesse período de um ano ele mudou pouca coisa.</p>
+
+<h2>Problemas</h2>
+
+<ul>
+<li>Preço: O plano básico custa $25 doláres. Não é caro, o problema é pagar $25 e mesmo assim ter menos recursos que uma alternativa gratuita.</li>
+<li>Limitações: Apenas 1 projeto e 1 usuário no plano free.</li>
+</ul>
+
+
+<!-- more -->
+
+
+<h2>Errbit</h2>
+
+<hr />
+
+<p>O Errbit é um projeto em rails, open source e 100% compatível com o airbreak. Suporta Ruby on Rails, Python e PHP. Ele apresenta algumas vantagens que me fizeram sair do AirBreak.</p>
+
+<p><img src="http://cirdes.github.com/images/post_4/errbit.png" title="Errbit" alt="Errbit" /></p>
+
+<h2>Vantagens</h2>
+
+<ul>
+<li><p>Intervalo de emails: Por padrão, a cada 1, 10 e 100 erros o errbit envia uma notificação por email. Um erro que aconteceu uma vez provavelmente tem uma prioridade muito menor do que um que já aconteceu 100 vezes.</p></li>
+<li><p>Agrupamento de notificações: Permite que notificações similares sejam agrupadas.</p></li>
+<li><p>Suporta comentários: É possível adicionar comentários as notificações de erro.</p></li>
+<li><p>Backtrace fácil de ler: Ao visualizar o backtrace é possível ir direto para linha de código com erro no github.</p></li>
+<li><p>Open source: É uma aplicação rails de código aberto que você pode modificar para atender melhor suas necessidades.</p></li>
+<li><p>Free: Ela é gratuita e sem limitações.</p></li>
+<li><p>Oauth com github: É possível logar com sua conta do Github</p></li>
+<li><p>Javascript: Ela também detecta erros em javascript</p></li>
+</ul>
+
+
+<p>Apesar de todas essas vantagens, manter uma máquina virtual com o Errbit é um retrocesso visto que no AirBrake eu não precisava me preocupar com isso. A solução é hospedar no Heroku.</p>
+
+<h2>Instalação</h2>
+
+<ul>
+<li>Clonar o projeto</li>
+</ul>
+
+
+<p><code>git clone git://github.com/errbit/errbit.git</code></p>
+
+<ul>
+<li>Criar e configurar uma instância no heroku</li>
+</ul>
+
+
+<p><code>gem install heroku</code></p>
+
+<p><code>heroku create example-errbit --stack cedar</code></p>
+
+<p><code>heroku addons:add mongolab:starter</code></p>
+
+<p><code>heroku addons:add sendgrid:starter</code></p>
+
+<p><code>heroku config:add HEROKU=true</code></p>
+
+<p><code>heroku config:add SECRET_TOKEN="$(bundle exec rake secret)"</code></p>
+
+<p><code>heroku config:add ERRBIT_HOST=some-hostname.example.com</code></p>
+
+<p><code>heroku config:add ERRBIT_EMAIL_FROM=example@example.com</code></p>
+
+<p><code>heroku remote add heroku git@heroku.com:projet-name.git</code></p>
+
+<p><code>git push heroku master</code></p>
+
+<ul>
+<li>Criar o banco e o usuário padrão</li>
+</ul>
+
+
+<p><code>heroku run rake db:seed --app app-name</code></p>
+
+<p>Pronto, seu errbit já está hospedado no heroku. Agora basta entrar nele utilizando o usuário e senha padrão e criar um novo projeto.
+Email: demo@errbit-demo.herokuapp.com
+Password: password</p>
+
+<p>Com projeto criado, basta adicionar a sua aplicação rails a gem <a href="https://github.com/cloudfuji/airbrake_user_attributes">airbrake_user_attributes</a> e o arquivo de configuração gerado ao criar um novo projeto.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Empresas e Instituições - Parte I]]></title>
+    <link href="http://cirdes.github.com/blog/2013/02/10/empresas-e-instituicoes-parte-i/"/>
+    <updated>2013-02-10T16:18:00-03:00</updated>
+    <id>http://cirdes.github.com/blog/2013/02/10/empresas-e-instituicoes-parte-i</id>
+    <content type="html"><![CDATA[<p>Eu gostaria de apresentar as empresas e instituições do Vale do Silíco as quais tivemos contato, e que podem ajudar outros brasileiros que queiram se aventurar por aqui.</p>
+
+<h2>Plug and Play Techcenter</h2>
+
+<p>A <a href="http://www.plugandplaytechcenter.com/">Plug and Play</a>, empresa localizada em Sunnyvale que funciona como incubarado e aceleradora de startups, tem como CEO e fundador o iraniano <a href="http://www.linkedin.com/pub/saeed-amidi/3/334/8">Saeed Amidi</a>. Ele participa ativamente na empresa, sempre sendo visto andando pelos corredores e nos eventos. Outra pessoa que vale a pena destacar é o <a href="http://www.linkedin.com/in/fernandogouveia">Fernando Gouveia</a>. Gerente de relações internacionais da empresa - e brasileiro - é uns dos reponsáveis por trazer o <a href="http://eventick.com.br">Eventick</a> para o vale.</p>
+
+<p><img src="http://res.sys-con.com/story/oct12/2407271/10162012155_0.jpg" title="Plug and Play Techcenter" alt="Fachada da Plug and Play" /></p>
+
+<h3>A história</h3>
+
+<p>A história do Saeed e da sua empresa é inusitada. A família dele é proprietária de um prédio histórico na University Avenue, em Palo Alto, umas das ruas mais valorizadas e berço de várias startups. Por lidar com inquilinos de grande porte, a exemplo da Logitech, Google e Paypal, o empresário teve a oportunidade de investir em algumas dessas empresas e fazer fortuna. Acreditando que os seus prédios pussuem um <strong>Bom Karma</strong> - como relata na reportagem da <a href="http://www.nytimes.com/2007/09/14/technology/14landlord.html?pagewanted=all">NYTimes</a> - e querendo investir em mais empresas de tecnologia, resolveu abrir a Plug and Play em Sunnyvale.</p>
+
+<!-- more -->
+
+
+<h3>As empresas</h3>
+
+<p>A Plug and Play fica em um prédio de 3 (três) andares. Um espaço muito grande. Quase todo o prédio é formado pavilhões, cada um destes representado por uma nacionalidade. O Eventick divide espaço com a também brasileira <a href="www.socialbase.com.br/">SocialBase</a>, que desenvolve uma rede social corporativa. Ao nosso lado temos os pavilhões português, alemão e chileno. Ainda vi empresas da Espanha, Israel, Austria, Canadá e várias de Singapura, totalizando mais de 300 startups.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-Ec-ZuVYPzhQ/URqINt4T4JI/AAAAAAAAGoQ/iS99wamGyXU/s640/IMG_20130212_100728.jpg" title="Empresas da Plug and Play" alt="Empresas compradas ou investidas" /></p>
+
+<h3>Fundos e grandes empresas</h3>
+
+<p>Do outro lado, estão os maiores fundos de investimento do país. Sempre atentos a uma boa oportunidade de investimento, além das grandes empresas como Alcatel, GM, Huawei, Mercedes-Benz, Microsoft e outras, em busca de uma tecnologia inovadora que possam surgir de uma dessas empresas.</p>
+
+<p>O slogan da Plug and Play é <a href="http://youtu.be/f1rjb_DxDNo">Silicon Valley in a Box</a>, É através dela que podemos ter acesso a mentoria, eventos e, é claro, um espaço para trabalhar.</p>
+
+<h3>Eventick na PnP</h3>
+
+<p>Na primeira semana, assistimos a três dias de palestras que nos ajudaram a entender como funcionam as coisas no Vale. Foram várias palestras com <a href="http://en.wikipedia.org/wiki/Venture_capital">VC&#8217;s</a> explicando como preparar um <a href="http://en.wikipedia.org/wiki/Elevator_pitch">pitch</a> e quais os passos necessários para quem busca um investimento. Houve, também, palestras sobre como conseguir um visto para empreender nos Estados Unidos, falando sobre as leis que influenciam na abertura de empresas. Por fim, conhecemos vários casos de sucesso que passaram pela Plug and Play. Acredito que o maior deles seja o Paypal.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-WeNknUDX2LY/URqINrerlnI/AAAAAAAAGoU/nvp_njc457I/s640/IMG_20130212_100809.jpg" title="Bandeiras PnP" alt="Nacionalidades na PnP" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Impressões do Vale do Silício]]></title>
+    <link href="http://cirdes.github.com/blog/2013/01/20/impressoes-do-vale-do-silicio/"/>
+    <updated>2013-01-20T11:47:00-03:00</updated>
+    <id>http://cirdes.github.com/blog/2013/01/20/impressoes-do-vale-do-silicio</id>
+    <content type="html"><![CDATA[<h2>O Vale</h2>
+
+<p>Depois de uma semana aqui no vale, resolvi tentar entender porque esse lugar é tão diferente do resto do mundo e, especialmente, do Brasil. Umas das melhores explicações que escutei aqui no vale foi a seguinte &#8220;Ninguém sabe quem vai ser o próximo Facebook&#8221;.</p>
+
+<h2>Contextualização</h2>
+
+<p>O Vale do Silício conta, hoje, com 400.000 profissionais de tecnologia. Dentre eles, 20.000 querem ser empreendedores. Nesse grupo, em torno de 1.000 conseguem um <a href="http://en.wikipedia.org/wiki/Angel_investor">investimento anjo</a> e menos de 300 um <a href="http://en.wikipedia.org/wiki/Series_A_round">Series A</a>.
+Olhando para o lado do <a href="http://en.wikipedia.org/wiki/Venture_capital">Venture Capital</a>(VC), 75% dos investimento mundiais em startups são realizados nos Estados Unidos e 40% desses investimentos são centralizados dentro do Vale do Silício.</p>
+
+<p>De acordo com o <a href="http://www.pwc.com/us/en/press-releases/2013/annual-venture-investment-dollars.jhtml">MoneyTree report</a>, em 2012 foram investidos $8.3 bilhões de dólares na industria de software através de 1,266 investimentos.
+<a href="http://en.wikipedia.org/wiki/Sand_Hill_Road">Sand Hill Road</a>, localizada em Menlo Park, agrupa a maior concentração de Venture capital do mundo. São mais de 30 empresas que investem em diversos tipos de negócios.</p>
+
+<!-- more -->
+
+
+<p></p>
+
+<h2>História do Vale</h2>
+
+<p>Umas das coisas que me perguntei foi: Como o Vale surgiu? Eu achava que o gênesis tecnológico do vale estava ligado a uma grande empresa como a Microsoft, Apple ou IBM, que tivesse resolvido se mudar para lá e contratar funcionários. Steve Blank conta a história secreta no seu <a href="http://steveblank.com/secret-history/">blog</a></p>
+
+<p>Para minha surpresa, a Segunda Guerra Mundial foi responsável pelo nascimento desse polo mundial em investimentos. O governo americano percebeu que a guerra só poderia ser vencida com tecnologia, a Alemanha estava tecnologicamente em vantagem e precisava ser combatida. Antes da segunda guerra, todas as pesquisas com fins militares eram feitas dentro de laboratórios também militares, isso mudou durante a guerra. Da noite para o dia foi investido 450 milhões nas universidades, para que as pesquisas fossem realizadas por civis.</p>
+
+<p>Stanford tornou-se referência em Micro-ondas e, ao contrário das outras universidades, pesquisadores eram incentivados a criar empresas fora do ambiente acadêmico no intuito de explorar novas tecnologias e atuar na área de pesquisa e desenvolvimento (P&amp;D).</p>
+
+<p>Stanford é uma universidade admirável, com um Campus enorme e infraestrutura moderna e arrojada, diferente de qualquer uma que tenha tido oportunidade de conhecer no Brasil. A proximidade com o mercado é evidente, os professores são empreendedores. Ela é o grande pilar do Vale.</p>
+
+<p><img src="http://www.justinbuzzard.net/wp-content/uploads/2011/03/SV_2011_placement.jpg" alt="Empresas do vale do silício" /></p>
+
+<h2>Como funciona</h2>
+
+<p>Até agora já deu para notar que no Vale as coisas são bem diferentes. Apesar do Eventick ser uma startup nova e sem contar com nenhum usuário da plataforma aqui, todos querem saber o que a gente faz, como a gente faz, onde a gente quer chegar e no que podem nos ajudar. O fato de acharem que, a qualquer momento, pode surgir um novo Facebook faz com que investidores e empresas estejam sempre abertos a conversas que eventualmente desaguem em novos negócios.</p>
+
+<p>Durante um jantar, tive a oportunidade de conhecer um funcionário de uma grande empresa aqui no Vale. Mencionei que gostaria de fazer uma integração com sua plataforma. Trocamos e-mails. No dia seguinte já recebo uma cópia de uma mensagem sua para outro funcionário dizendo que gostaria de trabalhar junto comigo para realizar essa integração com a minha empresa, que ele nunca tinha antes ouvido falar.</p>
+
+<p>Ainda durante o jantar, esse mesmo funcionário conheceu uma outra empresa do Brasil que prestava os mesmos serviços prestados por sua companhia. Ao invés de tentar extrair o máximo de informações do seu concorrente, ele perguntou como poderiam fazer negócios juntos, começando em seguida a trocar informações e comentar sobre suas últimas features, recentemente implementadas e o que ainda estaria por vir.</p>
+
+<h2>O que eu espero</h2>
+
+<p>Espero poder absorver essa forma de pensar do vale que é tão diferente do Brasil. Conhecer essas startups locais e a acompanhá-las no dia a dia será
+uma experiência fantástica. Nada acontece por acaso, nenhuma dessas empresas chegou onde chegou sem mérito, tudo é questão de competência.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Retrospectivas e Expectativas]]></title>
+    <link href="http://cirdes.github.com/blog/2013/01/20/retrospectivas-e-expectativa/"/>
+    <updated>2013-01-20T10:39:00-03:00</updated>
+    <id>http://cirdes.github.com/blog/2013/01/20/retrospectivas-e-expectativa</id>
+    <content type="html"><![CDATA[<h2>Motivação</h2>
+
+<p>Desdo começo de 2012, decidi que precisa começar um blog pessoal com o objetivo de divulgar as diversas tecnologias, processos e conhecimentos que tenho adquirido com a minha função de CTO (líder técnico) do Eventick.
+Esse ano de 2012 foi fantástico, sem dúvida foi um marco na minha vida profissional. Resolvi começar com uma retrospectiva do ano de 2012, seguindo o exemplo dos meus amigos: <a href="http://zenorocha.com/my-way/">Zeno Rocha</a>, <a href="http://fellipe.com/blog/big-review-de-2012/">Davidson</a>, <a href="http://bernarddeluna.com/css/7-desejos-em-2013-para-a-comunidade-web/">Bernard de Luna</a>, <a href="http://www.luiztiago.com/">Luiz Thiago</a>, <a href="http://blog.bygiovanni.com.br/hello-world-my-new-blog/">Giovanni</a> e <a href="http://jaydson.org/retrospectiva-2012/">Jaydson</a>.</p>
+
+<h2>Mestrado</h2>
+
+<p>Desde do início do meu curso de Engenharia da Computação na UFPE, sempre me interessei por pesquisas acadêmicas. No segundo período, comecei uma iniciação científica para desenvolver um codificador MPEG-2 em FPGA e depois de 2 anos entrei para um Grupo de Pesquisa em Redes(GPRT). Em março, fui aprovado para o mestrado na mesma instituição, um desafio que as vezes é bastante difícil de conciliar mas que quero chegar ao fim.</p>
+
+<h2>Início do Eventick</h2>
+
+<p>No Eventick, ainda éramos uma plataforma fechada e buscávamos validar nosso primeiro MVP com amigos e produtores locais. Um dos nossos lemas é “Always be closing”, isso nos levou a diversos eventos em recife e no resto do brasil onde conheci muita gente que menciono nesse post e que fez mudar bastante a visão que tinha sobre empreendedorismo.</p>
+
+<!-- more -->
+
+
+<h2>Ruby on Rails</h2>
+
+<p>O primeiro ponto foi ter me engajado com nossa comunidade local de desenvolvedores Ruby on Rails, o Frevo on Rails. Nossa comunidade tem muita gente boa, pessoas que trabalham/brincam com ruby a muito mais tempo que eu. O frevo ainda tem muito o que crescer e se estruturar mas esse ano fiz minha <a href="https://speakerdeck.com/cirdes/boas-praticas-usando-rspec">primeira palestra</a> no grupo e ajudei ao pessoal da Thoughtworks com <a href="http://railsgirls.com/recife">RailsGirls Recife</a>. Foi um evento surpreendente, tivemos mais de 100 meninas reunidas em um sábado para aprender rails.</p>
+
+<h2>Pernambuco.js</h2>
+
+<p>Em abril participei do Pernambuco.js, o evento me fez mudar a visão que tinha sobre javascript. Esse ano teremos o Pernambuco.js com o Eventick.
+Lançamento do Eventick
+Enquanto isso, o Eventick foi lançado público e começou a atrair a atenção dos produtores não só em Pernambuco mas também no sul e sudeste. Bernand de Luna foi um dos primeiros a apostar na gente e levou o Eventick para o FrontinBH e posteriomente nos indicou para o Jaydson e Felipe que usuaram o Eventick no BrazilJS. Foi fantástico, tivemos um heavy user que toda semana nos mandava sugestões e nos ajudava a corrigir falhas.</p>
+
+<h2>Kanbam</h2>
+
+<p>Em Agosto, <a href="http://www.caroli.org/">Paulo Caroli</a> esteve em recife e fez o workshop Otimizando o fluxo de trabalho onde tive contato com o kanbam. Conversando com Paulo, ele me mostrou que o kanbam fazia muito mais sentido para uma startup do que o Scrum que naquele momento já tinha se tornando burocrático demais para uma equipe de 4 desenvolvedores. Tomei a frente do nosso processo de desenvolvimento, implantei o kanban e notamos que estávamos entregando histórias em menos tempo.</p>
+
+<h2>BrazilJS</h2>
+
+<p>Também Em Agosto, Zeno veio a recife e resolveu usar o Eventick para um Techtalk na Liferay, nesse techtalk conheci o pessoal da liferay que hoje são amigos e Luiz Tiago que organizou o pernambuco.js e tem sua startup também. Foi com esse pessoal que fui para Porto Alegre participar do BrazilJS. Não preciso nem dizer que o <a href="http://zenorocha.com/braziljs-2012/">BrazilJS</a> foi fantástico, não só pelos palestrantes mas por ter conhecido o pessoal que já usava o eventick e ter colhido vários feedback. Em porto alegre também participei do hackton da mozilla na Thoughwmtorks.</p>
+
+<h2>São Paulo</h2>
+
+<p>De Porto Alegre, fui direto para São Paulo onde participante do Agile Brasil. Um evento muito grande onde pude expandir meu networking e onde conheci o pessoal da Thoughtworks que estava querendo levar o RailsGirls para o Recife. O melhor de São Paulo foi ter conhecido duas empresas que são referência no desenvolvimento com Rails no país, a Plataformatec que conta com 3 desenvolvedores do rails core team e a Codeminer do maior evangelista Ruby on Rails, o <a href="http://www.akitaonrails.com/">Fábio Akita</a>. Não posso deixar de mencionar a visita que fiz a locaweb, onde fui muito bem recebido pelo <a href="http://about.me/diegoeis">Diego Eis</a> que ainda me prometeu que teremos uma tableless conf com o Eventick em 2013.</p>
+
+<h2>Front in Maceió</h2>
+
+<p>Em novembro fui a Maceió, tivemos o primeiro evento dedicado a frontend no nordeste organizado por Davidson e <a href="https://github.com/juarezpaf">Juarez</a>, como contei no <a href="http://blog.eventick.com.br/eventick-no-front-in-maceio">blog do Eventick</a>.
+Empreendedorismo no Ceará</p>
+
+<p>Também em novembro, fomos convidados para apresentar o case do Eventick em Fortaleza, como cearense fiquei muito orgulhoso em saber que o Ceará já tem uma comunidade de empreendedores. Empresas como a Polivanti(<a href="http://www.linkedin.com/pub/m%C3%AAndel-oliveira/25/779/527">Mendel</a>), <a href="www.vitrolapp.com">Vitrola</a> Bruno, Daniel e Felipe) e <a href="http://alvanista.com/">Alvanista</a>, além de um espaço de coworking sensacional como o <a href="http://coworking.sevana.com.br/">Sevana</a>.</p>
+
+<h2>Vale do silício</h2>
+
+<p>No final do ano, o Eventick participou do Desafio Brasil, vencendo a etapa regional e se classificando para as semifinais em São Paulo. Fomos selecionados para uma temporada de 3 meses de incubação do Vale do Silício na Plug and Play Techcenter. Estou chegando hoje no vale e pretendo usar o meu blog para relatar como será minha experiência nesse ambiente tão propício para a inovação e o empreendedorismo. Acredito que tenho muito o que aprender e quero trazer esse aprendizado para compartilhar com o nosso ecosistema no Brasil.</p>
+
+<p>Cirdes Henrique</p>
+]]></content>
+  </entry>
+  
+</feed>
