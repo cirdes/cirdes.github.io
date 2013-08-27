@@ -4,7 +4,7 @@
   <title><![CDATA[Cirdes Henrique]]></title>
   <link href="http://cirdes.github.com/atom.xml" rel="self"/>
   <link href="http://cirdes.github.com/"/>
-  <updated>2013-08-25T14:31:15-03:00</updated>
+  <updated>2013-08-27T12:03:24-03:00</updated>
   <id>http://cirdes.github.com/</id>
   <author>
     <name><![CDATA[Cirdes Henrique]]></name>
@@ -12,6 +12,152 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[BrazilJS 2013]]></title>
+    <link href="http://cirdes.github.com/blog/2013/08/25/braziljs-2013/"/>
+    <updated>2013-08-25T22:33:00-03:00</updated>
+    <id>http://cirdes.github.com/blog/2013/08/25/braziljs-2013</id>
+    <content type="html"><![CDATA[<h2>O evento</h2>
+
+<hr />
+
+<p>Na semana passada, nos dias 22 e 23 de agosto tivemos a terceira edição do <a href="http://braziljs.com.br/">BrazilJS</a> - a maior conferência de JavaScript do universo - no teatro do Bourbon Country em Porto Alegre. O evento foi organizado e apresentado por <a href="https://twitter.com/jaydson">Jaydson Gomes</a> e <a href="https://twitter.com/felipenmoura">Felipe Nascimento</a>, ambos desenvolvedores do Terra. O evento foi muito bem organizado, palestrantes internacionais elogiaram o profissionalismo do BrazilJS. O teatro Bourbon é ideal para receber um evento desse porte, muito bonito e confortável.</p>
+
+<p>Pelo segundo ano consecutivo, as vendas de ingressos foram feitas exclusivamente pelo <a href="http://www.eventick.com.br/">Eventick</a>. O diferencial desse ano foi a utilização da app <a href="https://play.google.com/store/apps/details?id=br.com.eventick.checkin">Checklist</a> para o credenciamento. Ao contrário da edição anterior, esse ano, não tivemos fila e o checkin foi bastante elogiado.</p>
+
+<p><img src="http://cirdes.github.com/images/post_6/braziljs.jpg" title="BrazilJS 2013" alt="BrazilJS 2013" /></p>
+
+<!-- more -->
+
+
+<h2>Palestras - Primeiro dia</h2>
+
+<hr />
+
+<h2>MAURICIO WOLFF - Utilizando node.js para automação de build e deploy</h2>
+
+<p>Quem abriu o evento foi o <a href="https://www.facebook.com/mauricio.wolff">Mauricio Wolff</a>, Dell Brasil, que trabalha no time Test &amp; Target. Sua palestra foi um estudo de caso de como a Dell automatizou seu processo de build e deploy através da ferramenta TNT Build desenvolvida em Node.js.</p>
+
+<iframe src="http://bitbonsai.com/braziljs2013/" width="800" height="600"></iframe>
+
+
+<h2>ANGUS CROLL -  Learning to fly - Twitter Flight and mixin</h2>
+
+<p>Em seguida, tivemos a palestra do <a href="https://twitter.com/angustweets">Angus Croll</a>. Ele é do Twitter e falou sobre reuso de componentes JavaScript e de um web framework open-source, o <a href="http://flightjs.github.io/">Flight</a>. O framework permite a criação de componentes dissociados que se comunicam através de eventos. A palestra foi conceitualmente muito interessante, ele detalhou e comparou as técnicas mais comuns de reuso como: Herança clássica, prototype, mixins e composition de objetos. Assim como o livro <a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_3?ie=UTF8&amp;qid=1377530449&amp;sr=8-3&amp;keywords=gang+of+four">Gang of Four</a> recomenda &#8216;Prefer composition over inheritance&#8217;, essa é a abordagem do Flight, ele utiliza mixins.</p>
+
+<script async class="speakerdeck-embed" data-id="bc06bab0edce0130460422df94f3aa7c" data-ratio="1.74446337308348" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<h2>MARCEL DURAN - Performance as a Twitter feature</h2>
+
+<p><a href="https://twitter.com/marcelduran">Marcel Duran</a>, brasileiro e também do Twitter falou sobre um assunto muito interessante, performance de aplicações web. O <a href="https://github.com/marcelduran/yslow">YSlow</a>, ferramenta de análise de performance bastante conhecida é mantida por ele. Marcel defende que performance seja tratada como uma funcionalidade e dessa forma quando alguma regressão acontecer, os testes automatizados devem ser capazes de detectar. Performance está diretamente ligado a quantidade de usuários satisfeitos, poucos milisegundos impactam em retenção de usuários. O palestrante mostrou a integração do Yslow com o <a href="http://jenkins-ci.org/">Jerkins</a>.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25502561" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<h2>RENATO MANGINI - Where modern front-end tooling has gone</h2>
+
+<p>O <a href="https://twitter.com/renatomangini">Renato Mangini</a>, desenvolvedor e evangelista do Google falou sobre as 3 ferramentas que facilitam a vida do desenvolvedor Front-end: <a href="http://yeoman.io/">Yeoman</a>, <a href="http://gruntjs.com/">Grunt</a> e <a href="http://bower.io/">Bower</a>. Segundo ele, a vida do desenvolvedor Front-end mudou nos últimos anos. Hoje é comum utilizarmos sprites, <a href="http://coffeescript.org/">CoffeScript</a>, <a href="http://sass-lang.com/">SCSS</a>, gerar builds para teste, homologação e fazer deploy. Com o Yoman é possível fazer scaffold, com o Grunt automatizar tarefas e com o Bower resolvedor dependências. Durante a palestra, o Mangini fez um call com o <a href="https://twitter.com/addyosmani">Addy Osmani</a> que lançou a versão 1.0 do Yeoman ao vivo.</p>
+
+<iframe src="http://talks.renatomangini.com/2013/braziljs/index.html" width="800" height="600"></iframe>
+
+
+<h2>ZEKE SIKELIANOS - Crowdsourcing Heroku&#8217;s Node Buildpack</h2>
+
+<p>Em seguida tivemos a palestra do <a href="https://twitter.com/zeke">Zeke</a> do Heroku. Particularmente eu estava esperando essa palestra, o contato para que Zeke estivesse presente no BrazilJS surgiu de uma visita que fiz ao Heroku no começo ano. Ele é responsável pelo <a href="https://github.com/heroku/heroku-buildpack-nodejs">Buildpack</a> do <a href="http://nodejs.org/">NodeJS</a>, para quem não sabe o Buildpack é um bash script que detecta, baixa e compila o node quando se faz um deploy no heroku. Segundo Zeke, o JavaScript já é a segunda linguagem mais popular no heroku, perdendo apenas para <a href="http://www.ruby-lang.org/">ruby</a>.</p>
+
+<iframe src="http://ba2.herokuapp.com/" width="800" height="600"></iframe>
+
+
+<h2>ZENO ROCHA - Um futuro chamado Web Components</h2>
+
+<p>Este ano o <a href="https://twitter.com/zenorocha">Zeno Rocha</a> falou sobre as cinco novas especificações: Templates, Decorators, Shadow DOM, Custom Elements e Imports. Zeno fez uma reflexão de como o Javascript evoluí citando exemplos como Flash e Jquery Seletor que hoje podem ser substituídos por técnicas nativas. Falou sobre a tendência de reutilizar código através de componetes e mostrou como criar seus próprios componentes. Para finalizar, Zeno revelou mais um projeto open-source criado juntamente com <a href="https://twitter.com/bernarddeluna">Bernard de Luna</a> e <a href="https://twitter.com/eduardolundgren">Eduardo Lundgren</a>, o <a href="http://customelements.io/">Custom Elements</a>, uma galeria de web components.</p>
+
+<script async class="speakerdeck-embed" data-id="375ae900ee6101301719122e5a5beb4c" data-ratio="1.33333333333333" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<h2>ROBERT NYMAN -  Bringing the open web and APIs to mobile devices with Firefox OS</h2>
+
+<p>O <a href="https://twitter.com/robertnyman">Robert Nyman</a> começou falando sobre a Mozilla, em seguida, começou a apresentar o Firefox OS que está chegando ao Brasil pela telefônica. Por fim, ele apresentou a api do Firefox OS.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25553346" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<h2>ANGELINA FABBRO - How to make mobile apps: Web developer REMIX</h2>
+
+<p>A <a href="https://github.com/afabbro">Angelina Fabbro</a> encerrou o primeiro dia do evento desenvolvendo um aplicativo Firefox OS que buscava todos os Tweets com a tag #braziljs.</p>
+
+<p><a href="https://github.com/afabbro/fxos-websockets-notifications-app">fxos-websockets-notifications-app</a></p>
+
+<h2>Palestras - Segundo dia</h2>
+
+<hr />
+
+<h2>DEMIAN BORBA - Buscando a melhor performance em Aplicativos Móveis com HTML5</h2>
+
+<p>A palestra de abertura do segundo dia de evento foi a de <a href="https://twitter.com/demianborba">Demian Borba</a>, outra palestra sobre performance. Demian destacou que performance impacta em usabilidade e que o Yahoo aumenta seu tráfego em 9% para cada 400 milisegundos em melhoria de performance e que a amazon aumenta sua receita em 1% para cada 100 milisegundos reduzidos. Ele ainda apresentou várias dicas para conseguir uma melhoria de desempenho e finalizou sua palestra falando sobre o Blackberry 10.</p>
+
+<script async class="speakerdeck-embed" data-id="7a1701b0ee390130460622df94f3aa7c" data-ratio="1.77777777777778" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<h2>JOSH HOLMES - The Perf Doctor is In</h2>
+
+<p>Quem sem dúvida surpreendeu foi <a href="https://twitter.com/joshholmes">Josh Holmes</a>, não é nada fácil representar a Microsoft e seu Internet Explorer em um evento de JavaScript. Com seu carisma e sua presença de palco, Josh conseguiu divertir a todos os presentes. Ele detalhou os sub-sistemas do IE e mostrou como eles interagem e como impactam em performance. A análise das métricas de performance das empresas de vendas de passagens aéreas serviu como exemplo para sua palestra. Para finalizar, ele falou sobre o <a href="http://msdn.microsoft.com/pt-br/performance/cc825801.aspx">Windows Performance Toolkit</a>, um conjuto de ferramentas para se analisar performance.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25582676" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<h2>ALEXANDRE GAIGALAS - API Sex</h2>
+
+<p>Em seguida, tivemos a palestra do <a href="https://twitter.com/alganet">Alexandre Gaigalas</a>. Na sua palestra ele mostrou como mutações podem acontecer na natureza exemplificando o caso do liger, cruzamento de um leão com um tigre fêmea. Assim como na natureza, no mundo do software ocorrem mutações que podem gerar indivíduos melhores ou piores. Para exemplificar as mutações no JavaScript, ele cita o CORS, Pushstate e QuerySelectorAll.</p>
+
+<h2>JEAN CARLO EMER - O fantástico mundo do JavaScript</h2>
+
+<p>Na sua palestra, <a href="https://twitter.com/jcemer">Jean Carlo Emer</a> explora o fantástico mundo do JavaScript. Essa foi uma palestra que explorou os conceitos do JS, falou do paradigma OO com prototype, Solid, composição e Mixin. Vimos bastante exemplos de código CoffeeScript que está ganhando cada vez mais espaço.</p>
+
+<script async class="speakerdeck-embed" data-id="b22802a0ee490130c0c44edf7558915e" data-ratio="1.33333333333333" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<h2>THIBAULT IMBERT - Workers of the web</h2>
+
+<p>O <a href="https://twitter.com/thibault_imbert">Thibault Imbert</a> foi outro palestrante que demostrou bastante carisma, chegou falando sobre os artistas brasileiros que admira, um deles o Ed Motta. Ainda fez questão de chamar o <a href="https://www.facebook.com/leobetosouza">Leobeto</a> ao palco devido a sua semelhança com o artista. Na sua palestra, ele mostrou como aproveitar o poder das concorrências com a utilização de Web Workers.</p>
+
+<iframe src="https://dl.dropboxusercontent.com/u/7009356/Workers%20of%20the%20web%20-%20BrazilJS.pdf" width="800" height="600"></iframe>
+
+
+<h2>CARIDY PATINO - NodeJS, the good, the bad and the ugly</h2>
+
+<p>Outra boa palestra foi a de <a href="https://twitter.com/caridy">Caridy Patino</a> sobre <a href="http://nodejs.org/">Nodejs</a>, ele destacou os pontos forte e fracos do node. Web applications e API&#8217;s são os tipos de aplicações mais indicadas para o uso do node devido a sua alta performance e concorrência. Por outro lado, o GC do node não é otimizado e debugar pode ser bastante difícil. A mensagem final é que qualquer aplicação pode ser feita com NodeJS, o maior desafio é conhecer as limitações da plataforma para evitar falhas em algumas das armadilhas.</p>
+
+<iframe src="https://dl.dropboxusercontent.com/u/31422156/braziljs-2013.pdf" width="800" height="600"></iframe>
+
+
+<h2>STOYAN STEFANOV - Reactive JavaScript</h2>
+
+<p>Umas das palestras mais aguardadas foi a do <a href="https://twitter.com/stoyanstefanov">Stoyan</a>, ele é engenheiro do Facebook e autor de livros como o <a href="http://shop.oreilly.com/product/9780596806767.do">JavaScript Patterns</a>. Em sua palestra, ele falou sobre o <a href="http://facebook.github.io/react/">React</a>, ferramenta desenvolvida pelo facebook. O React é outra ferramenta baseada em Components, um ponto negativo é a presença de HTML dentro do JavaScript como ele demostrou através da utilização do <a href="http://jsx.github.io/">JSX</a>.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25622424" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<p>DOUGLAS CROCKFORD - Programming Style and Your Brain</p>
+
+<p>Sem dúvida, a palestra mais aguardada do evento foi a do <a href="http://www.crockford.com/">Douglas Crockford</a>. Veterano do JavaScript, ele é responsável pela criação do formato <a href="http://www.json.org/">JSON</a> e da ferramenta <a href="http://www.jslint.com/">JSLint</a> além de ser autor do livro <a href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts</a>. Em sua palestra, Crockford se baseou na psicologia para fazer uma analogia entre Cabeça e Vísceras. A primeira sendo responsável por decisões racionáveis e a segunda por decisões instintivas. Segundo ele, programação é a atividade mais complexa que as pessoas executam, é preciso cabeça e vísceras. Como em toda linguagem, o JavaScript tem partes boas e ruins, através de exemplos ele mostrou como o JSLint avisa quando você está utilizando uma parte ruim.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/14858206" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<h2>Por fim</h2>
+
+<hr />
+
+<p>Gostaria de agradecer a Jaydson e Felipe pela organização desse evento fantástico. O BrazilJS foi a primeira grande conferência do Eventick, é um evento que fazemos questão de participar.</p>
+
+<p>Além disso, é uma oportunidade de rever amigos de todo o Brazil e passar bons momentos com os amigos de Pernambuco. Nos encontraremos no <a href="http://www.eventick.com.br/braziljs-2014">BrazilJS 2014</a>.</p>
+
+<p><img src="http://cirdes.github.com/images/post_6/jaydsonefelipe.jpeg" title="Jaydson e Felipe" alt="Jaydson e Felipe" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2nd Open Meeting Pernambuco.js]]></title>
@@ -49,8 +195,6 @@
 <iframe src="http://www.slideshare.net/slideshow/embed_code/25261533" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
 
 
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/guiky/firefoxos-plataforma-open-web" title="FirefoxOS - A plataforma Open Web" target="_blank">FirefoxOS - A plataforma Open Web</a> </strong> from <strong><a href="http://www.slideshare.net/guiky" target="_blank">Guilherme Farias</a></strong> </div></p>
-
 <h2>Testes e automação com PhantomJS e CasperJS (Henrique Vicente)</h2>
 
 <p><a href="http://phantomjs.org/">PhantomJS</a> e <a href="http://casperjs.org/">CasperJS</a> foram os assuntos abordados por <a href="https://www.facebook.com/henvic">Henrique Vicente</a>. O PhantomJS é um browser headless, ou seja, um browser especial sem interface gráfica. Os browsers headless são bastante utilizados em ambiente de teste. A vantagem do PhantomJS sobre os navegadores convecionais; Chrome ou Firefox é a possibilidade de acelerar seus testes de aceitação, evitando que durante o seus testes seja preciso carregar na memória uma interface gráfica.
@@ -62,16 +206,17 @@ O CasperJS é uma alternativa aos frameworks <a href="https://github.com/jnickla
 <h2>Meteor (Flávio Junior - Barganhou.la)</h2>
 
 <p>Sem dúvida o <a href="http://www.meteor.com/">Meteor</a> é um framework bastante promissor para se construir web apps, <a href="https://www.facebook.com/flaviojuvenal">Flávio Junior</a> demostrou suas caracteristicas e detalhou o funcionamento de uma aplicação de leaderboard.
-O framework é todo em Javascript, tanto a parte do servidor quanto a do cliente. Com o meteor é possível acessar dados persistidos em banco como se eles estivem no navegador.</p>
+O framework é todo em Javascript, tanto a parte do servidor quanto a do cliente. Com o meteor é possível acessar dados persistidos em banco como se eles estivessem no navegador.</p>
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/25262488" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
 
 
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/flaviojuvenal/comeando-com-meteor-25262488" title="Começando com meteor" target="_blank">Começando com meteor</a> </strong> from <strong><a href="http://www.slideshare.net/flaviojuvenal" target="_blank">Flávio Junior</a></strong> </div></p>
-
 <h2>Something about the future of JS (Luiz Tiago - MGR Tecnologia)</h2>
 
-<p>Na última palestra da noite, <a href="https://www.facebook.com/luiztiago">Luiz Tiago</a> falou sobre o futuro do JS. Através de um exemplo real, ele utilizou a api do Twitter para montar uma lista com os últimos tweets. Através da utilização de templates, proposto no último draft sobre <a href="http://www.w3.org/TR/2013/WD-components-intro-20130606/">Web Components</a>, Luiz Tiago falou das suas vantagens. Para finalizar, tivemos uma demostração do <a href="https://dvcs.w3.org/hg/dap/raw-file/default/light/Overview.html">Ambient Ligth Events</a>. Essa especificação, disponível no apenas no Firefox 22+ até o momento, permite que mudanças na intensidade de iluminação sejam detectadas. Durante a palestras, um demo de uma formiga que se movia apenas quando as luzes eram apagas foi apresentado.</p>
+<p>Na última palestra da noite, <a href="https://www.facebook.com/luiztiago">Luiz Tiago</a> falou sobre o futuro do JS. Através de um exemplo real, ele utilizou a api do Twitter para montar uma lista com os últimos tweets. Através da utilização de templates, proposto no último draft sobre <a href="http://www.w3.org/TR/2013/WD-components-intro-20130606/">Web Components</a>, Luiz Tiago falou das suas vantagens. Para finalizar, tivemos uma demostração do <a href="https://dvcs.w3.org/hg/dap/raw-file/default/light/Overview.html">Ambient Light Events</a>. Essa especificação, disponível no apenas no Firefox 22+ até o momento, permite que mudanças na intensidade de iluminação sejam detectadas. Durante a palestras, um demo de uma formiga que se movia apenas quando as luzes eram apagas foi apresentado.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25286341" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
 
 <h2>Por fim</h2>
 
