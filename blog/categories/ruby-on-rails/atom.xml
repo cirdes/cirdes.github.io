@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby on Rails | Cirdes Henrique]]></title>
   <link href="http://cirdes.github.com/blog/categories/ruby-on-rails/atom.xml" rel="self"/>
   <link href="http://cirdes.github.com/"/>
-  <updated>2013-08-27T17:02:40-03:00</updated>
+  <updated>2013-10-14T15:54:17-03:00</updated>
   <id>http://cirdes.github.com/</id>
   <author>
     <name><![CDATA[Cirdes Henrique]]></name>
@@ -110,7 +110,7 @@ Durante um bom tempo fomos muito felizes com o AirBrake, sem dúvida foi o melho
 <p><code>heroku run rake db:seed --app app-name</code></p>
 
 <p>Pronto, seu errbit já está hospedado no heroku. Agora basta entrar nele utilizando o usuário e senha padrão e criar um novo projeto.
-Email: demo@errbit-demo.herokuapp.com
+Email: <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#58;&#x64;&#101;&#109;&#x6f;&#64;&#101;&#x72;&#114;&#x62;&#105;&#116;&#x2d;&#100;&#101;&#109;&#111;&#x2e;&#x68;&#101;&#114;&#111;&#x6b;&#x75;&#x61;&#112;&#112;&#46;&#x63;&#111;&#109;">&#x64;&#x65;&#109;&#x6f;&#64;&#x65;&#114;&#x72;&#x62;&#x69;&#x74;&#45;&#100;&#101;&#109;&#x6f;&#46;&#x68;&#101;&#114;&#111;&#107;&#117;&#x61;&#x70;&#112;&#46;&#x63;&#111;&#109;</a>
 Password: password</p>
 
 <p>Com projeto criado, basta adicionar a sua aplicação rails a gem <a href="https://github.com/cloudfuji/airbrake_user_attributes">airbrake_user_attributes</a> e o arquivo de configuração gerado ao criar um novo projeto.</p>

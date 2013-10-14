@@ -4,7 +4,7 @@
   <title><![CDATA[Cirdes Henrique]]></title>
   <link href="http://cirdes.github.com/atom.xml" rel="self"/>
   <link href="http://cirdes.github.com/"/>
-  <updated>2013-08-27T17:02:40-03:00</updated>
+  <updated>2013-10-14T15:54:17-03:00</updated>
   <id>http://cirdes.github.com/</id>
   <author>
     <name><![CDATA[Cirdes Henrique]]></name>
@@ -12,6 +12,77 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[6 ferramentas gratuitas ou de baixo custo fundamentais para CTO's de startups]]></title>
+    <link href="http://cirdes.github.com/blog/2013/10/13/6-ferramentas-gratuitas-ou-de-baixo-custo-fundamentais-para-ctos-de-startups/"/>
+    <updated>2013-10-13T17:34:00-03:00</updated>
+    <id>http://cirdes.github.com/blog/2013/10/13/6-ferramentas-gratuitas-ou-de-baixo-custo-fundamentais-para-ctos-de-startups</id>
+    <content type="html"><![CDATA[<h2>Introdução</h2>
+
+<hr />
+
+<p>Para startups ou empresas que estão construindo um produto web, alguns serviços e ferramentas podem facilitar o desenvolvimento, a gestão e o monitoramento do seu produto. Dentro de uma startup, é papel do CTO garantir o bom andamento do desenvolvimento e que a plataforma que está sendo construída tenha a menor quantidade de erros possíveis, além de atender as expectativas de performance.
+Ferramentas de baixo custo ou gratuitas podem facilitar bastante esse trabalho. As ferramentas que irei apresentar são as que usamos diariamente no Eventick: Github, Trello, Codeship, Errbit, Logentries, Newrelic.</p>
+
+<!-- more -->
+
+
+<h2>Github</h2>
+
+<hr />
+
+<p>O <a href="https://github.com/">Github</a> é o maior serviço de repositório de código online, a maioria dos projetos open source estão armazenados no Github. Para projetos open source o Github é gratuito e por apenas 9 dólares mensais é possível ter acesso a até 5 repositórios privados. Ele vai muito além de um simples repositório de código, sendo muito útil para catalogar bugs e ideias para novas funcionalidades como podemos ver no projeto do <a href="https://github.com/rails/rails/issues">Rails</a>. Assim como nos projetos open source, precisamos saber tudo que é modificado no nosso código e discutir essas mudanças. O Github tem um recurso chamado <a href="https://help.github.com/articles/using-pull-requests">Pull Request</a>, todo nova funcionalidade deve ser submetida para revisão da equipe. Além de garantir que nada indesejado seja colocado no código, permite nivelar a equipe pois todos questionam ou são questionados pelo seu código. Uma alternativa gratuita pode ser o <a href="https://bitbucket.org/">BitBucket</a></p>
+
+<p><img src="http://cirdes.github.com/images/post_7/blog-github.png" title="2nd Open Meeting" alt="2nd Open Meeting" /></p>
+
+<h2>Trello</h2>
+
+<hr />
+
+<p>Existem diversas ferramentas para gerenciar atividades mas nenhuma que usei é tão simples e funcional como o <a href="https://trello.com/">Trello</a>. No começo, usávamos post-it colados na parede. Com a necessidade de trabalhar remoto, transferimos nosso quadro para o Trello. Nele é possível criar &ldquo;cards&rdquo; que usamos como histórias/features e definir vários estágios por onde nossas histórias passam, desde de um Todo, Doing e Done até um processo mais complexo utilizando kanban com backlog, filas e controle de qualidade. O melhor é que isso tudo não custa nada, o Trello é gratuito.</p>
+
+<h2>Codeship</h2>
+
+<hr />
+
+<p>Configurar e manter um servidor de continus integration pode ser uma tarefa chata e demora. Quem nunca perdeu horas configurando o <a href="http://jenkins-ci.org/">Jenkins</a> e depois teve a frustração de ver seu servidor parar de funcionar devido a uma nova dependência que você adicionou ao seu projeto. O <a href="http://codeship.io/">Codeship</a> é um serviço que custa 9 dólares mensais, ele é bem simples de ser adicionado ao seu projeto. Com o Codeship, uma vez que você faz uma modificação no seu repositório de código, ele detecta essa modificação, baixa a nova versão e roda todos os seus testes automaticamente. Caso seus testes passem, ele pode fazer o deploy para seu servidor de testes ou até mesmo para a produção. Caso os testes não estejam corretos, ele enviam um email mostrando quais testes não passaram e quem foi a pessoa responsável por quebrá-los. Para mais informações sobre Continuios Integration eu recomendo esse <a href="http://www.martinfowler.com/articles/continuousIntegration.html#BenefitsOfContinuousIntegration">texto</a> de Martin Fowler</p>
+
+<h2>Errbit</h2>
+
+<hr />
+
+<p>O <a href="https://github.com/errbit/errbit">Errbit</a> talvez seja a ferramenta mais importante, com ele é possível monitorar os erros na sua aplicação. Por mais que se escrevam testes ou se tenha um controle rigoroso de qualidade, ninguém está livre de erros. Nem mesmo empresas como Google ou Apple estão imunes as falhas. O Errbit permite detectar um erro sem a necessidade do usuário ter que reportá-lo, seja esse erro no backend da sua aplicação ou no seu código javascript rodando no cliente. O Errbit é um projeto open-source que tive a oportunidade de contribuir, em outro <a href="http://cirdes.com.br/blog/2013/03/11/monitorando-excecoes-em-aplicacoes-web-migrando-do-airbrake-para-o-errbit/">post</a> que fiz é possível encontrar uma passo a passo de como configurá-lo. Como alternativas pagas temos o <a href="http://airbrake.io/">AirBrake</a> e o <a href="http://www.exceptional.io/">Exceptional</a>.</p>
+
+<h2>Logentries</h2>
+
+<hr />
+
+<p>O <a href="https://logentries.com/">Logentries</a> é uma ferramenta que permite analisar o log das nossas aplicações web. Na maioria das vezes não damos importância ao log, mas ele é o registro de tudo que acontece no nosso sistema. Já precisamos analisar eventos que ocorreram uma semana atrás para entendermos o comportamento do sistema. Nesses casos, é fundamental ter um serviço como o logentries que nos permite extrair informações com facilidade. O logentries tem um plano gratuito.</p>
+
+<h2>NewRelic</h2>
+
+<hr />
+
+<p>Mesmo que tenhamos uma plataforma livre de erros, saber como ela está se comportando em termos de performance é fundamental. O tempo de resposta está diretamente ligada a satisfação do usuário. De acordo com <a href="http://alistapart.com/article/improving-ux-through-front-end-performance">pesquisas:</a>,</p>
+
+<ul>
+<li><p>Adicionar meio segundo ao tempo de carregamento de uma página de resultados de busca pode diminuir o tráfego e os lucros com publicidade em 20%, segundo estudo do Google.</p></li>
+<li><p>A Amazon percebeu que a cada 100 milissegundos adicionais de carregamento de suas páginas, as vendas caíam 1%.</p></li>
+<li><p>Os usuários esperam que as páginas carreguem em 2 segundos – e depois de 3 segundos, quase 40% dos usuários vai simplesmente sair.</p></li>
+</ul>
+
+
+<p>Sabendo o quão importante é performance, precisamos monitorar o desempenho da nossa aplicação. O <a href="http://newrelic.com/">NewRelic</a> oferece ótimas ferramentas para isso, semanalmente ele envia informações de tempo médio de carregamento de página. Ele permite que você analise sua aplicação em termos de processamento no servidor e tempo de renderização no navegador separadamente. Sabemos que <a href="http://c2.com/cgi/wiki?PrematureOptimization">otimização prematura</a> pode matar o seu negócio, o NewRelic leva em consideração o tempo e o número de vezes que uma requisição é executada. Uma requisição que só é executava uma vez ao dia, mesmo que seja lenta,  não precisa ser otimizada.
+O NewRelic tem uma versão gratuita que é limitada, o ideal é pagar pelo NewRelic apenas quando é preciso focar em otimização.</p>
+
+<h2>Por fim</h2>
+
+<hr />
+
+<p>Se alguém discorda ou conhece alguma ferramenta útil que eu não citei, deixa um comentário.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[BrazilJS 2013]]></title>
@@ -22,7 +93,7 @@
 
 <hr />
 
-<p>Na semana passada, nos dias 22 e 23 de agosto tivemos a terceira edição do <a href="http://braziljs.com.br/">BrazilJS</a> - a maior conferência de JavaScript do universo - no teatro do Bourbon Country em Porto Alegre. O evento foi organizado e apresentado por <a href="https://twitter.com/jaydson">Jaydson Gomes</a> e <a href="https://twitter.com/felipenmoura">Felipe Nascimento</a>, ambos desenvolvedores do Terra. O evento foi muito bem organizado, palestrantes internacionais elogiaram o profissionalismo do BrazilJS. O teatro Bourbon é ideal para receber um evento desse porte, muito bonito e confortável.</p>
+<p>Na semana passada, nos dias 22 e 23 de agosto tivemos a terceira edição do <a href="http://braziljs.com.br/">BrazilJS</a> &ndash; a maior conferência de JavaScript do universo &ndash; no teatro do Bourbon Country em Porto Alegre. O evento foi organizado e apresentado por <a href="https://twitter.com/jaydson">Jaydson Gomes</a> e <a href="https://twitter.com/felipenmoura">Felipe Nascimento</a>, ambos desenvolvedores do Terra. O evento foi muito bem organizado, palestrantes internacionais elogiaram o profissionalismo do BrazilJS. O teatro Bourbon é ideal para receber um evento desse porte, muito bonito e confortável.</p>
 
 <p>Pelo segundo ano consecutivo, as vendas de ingressos foram feitas exclusivamente pelo <a href="http://www.eventick.com.br/">Eventick</a>. O diferencial desse ano foi a utilização da app <a href="https://play.google.com/store/apps/details?id=br.com.eventick.checkin">Checklist</a> para o credenciamento. Ao contrário da edição anterior, esse ano, não tivemos fila e o checkin foi bastante elogiado.</p>
 
@@ -31,116 +102,116 @@
 <!-- more -->
 
 
-<h2>Palestras - Primeiro dia</h2>
+<h2>Palestras &ndash; Primeiro dia</h2>
 
 <hr />
 
-<h2>MAURICIO WOLFF - Utilizando node.js para automação de build e deploy</h2>
+<h2>MAURICIO WOLFF &ndash; Utilizando node.js para automação de build e deploy</h2>
 
 <p>Quem abriu o evento foi o <a href="https://www.facebook.com/mauricio.wolff">Mauricio Wolff</a>, Dell Brasil, que trabalha no time Test &amp; Target. Sua palestra foi um estudo de caso de como a Dell automatizou seu processo de build e deploy através da ferramenta TNT Build desenvolvida em Node.js.</p>
 
 <iframe src="http://bitbonsai.com/braziljs2013/" width="800" height="600"></iframe>
 
 
-<h2>ANGUS CROLL -  Learning to fly - Twitter Flight and mixin</h2>
+<h2>ANGUS CROLL &ndash;  Learning to fly &ndash; Twitter Flight and mixin</h2>
 
-<p>Em seguida, tivemos a palestra do <a href="https://twitter.com/angustweets">Angus Croll</a>. Ele é do Twitter e falou sobre reuso de componentes JavaScript e de um web framework open-source, o <a href="http://flightjs.github.io/">Flight</a>. O framework permite a criação de componentes dissociados que se comunicam através de eventos. A palestra foi conceitualmente muito interessante, ele detalhou e comparou as técnicas mais comuns de reuso como: Herança clássica, prototype, mixins e composition de objetos. Assim como o livro <a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_3?ie=UTF8&amp;qid=1377530449&amp;sr=8-3&amp;keywords=gang+of+four">Gang of Four</a> recomenda &#8216;Prefer composition over inheritance&#8217;, essa é a abordagem do Flight, ele utiliza mixins.</p>
+<p>Em seguida, tivemos a palestra do <a href="https://twitter.com/angustweets">Angus Croll</a>. Ele é do Twitter e falou sobre reuso de componentes JavaScript e de um web framework open-source, o <a href="http://flightjs.github.io/">Flight</a>. O framework permite a criação de componentes dissociados que se comunicam através de eventos. A palestra foi conceitualmente muito interessante, ele detalhou e comparou as técnicas mais comuns de reuso como: Herança clássica, prototype, mixins e composition de objetos. Assim como o livro <a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_3?ie=UTF8&amp;qid=1377530449&amp;sr=8-3&amp;keywords=gang+of+four">Gang of Four</a> recomenda &lsquo;Prefer composition over inheritance&rsquo;, essa é a abordagem do Flight, ele utiliza mixins.</p>
 
 <script async class="speakerdeck-embed" data-id="bc06bab0edce0130460422df94f3aa7c" data-ratio="1.74446337308348" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
 
 
-<h2>MARCEL DURAN - Performance as a Twitter feature</h2>
+<h2>MARCEL DURAN &ndash; Performance as a Twitter feature</h2>
 
 <p><a href="https://twitter.com/marcelduran">Marcel Duran</a>, brasileiro e também do Twitter falou sobre um assunto muito interessante, performance de aplicações web. O <a href="https://github.com/marcelduran/yslow">YSlow</a>, ferramenta de análise de performance bastante conhecida é mantida por ele. Marcel defende que performance seja tratada como uma funcionalidade e dessa forma quando alguma regressão acontecer, os testes automatizados devem ser capazes de detectar. Performance está diretamente ligado a quantidade de usuários satisfeitos, poucos milisegundos impactam em retenção de usuários. O palestrante mostrou a integração do Yslow com o <a href="http://jenkins-ci.org/">Jerkins</a>.</p>
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/25502561" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
 
 
-<h2>RENATO MANGINI - Where modern front-end tooling has gone</h2>
+<h2>RENATO MANGINI &ndash; Where modern front-end tooling has gone</h2>
 
 <p>O <a href="https://twitter.com/renatomangini">Renato Mangini</a>, desenvolvedor e evangelista do Google falou sobre as 3 ferramentas que facilitam a vida do desenvolvedor Front-end: <a href="http://yeoman.io/">Yeoman</a>, <a href="http://gruntjs.com/">Grunt</a> e <a href="http://bower.io/">Bower</a>. Segundo ele, a vida do desenvolvedor Front-end mudou nos últimos anos. Hoje é comum utilizarmos sprites, <a href="http://coffeescript.org/">CoffeScript</a>, <a href="http://sass-lang.com/">SCSS</a>, gerar builds para teste, homologação e fazer deploy. Com o Yeoman é possível fazer scaffold, com o Grunt automatizar tarefas e com o Bower resolvedor dependências. Durante a palestra, o Mangini fez um call com o <a href="https://twitter.com/addyosmani">Addy Osmani</a> que lançou a versão 1.0 do Yeoman ao vivo.</p>
 
 <iframe src="http://talks.renatomangini.com/2013/braziljs/index.html" width="800" height="600"></iframe>
 
 
-<h2>ZEKE SIKELIANOS - Crowdsourcing Heroku&#8217;s Node Buildpack</h2>
+<h2>ZEKE SIKELIANOS &ndash; Crowdsourcing Heroku&rsquo;s Node Buildpack</h2>
 
 <p>Em seguida tivemos a palestra do <a href="https://twitter.com/zeke">Zeke</a> do Heroku. Particularmente, eu estava esperando muito por essa palestra, pois o contato para que Zeke estivesse presente no BrazilJS surgiu de uma visita que fiz ao Heroku no começo ano. Ele é responsável pelo <a href="https://github.com/heroku/heroku-buildpack-nodejs">Buildpack</a> do <a href="http://nodejs.org/">NodeJS</a>, para quem não sabe o Buildpack é um bash script que detecta, baixa e compila o node quando se faz um deploy no heroku. Segundo Zeke, o JavaScript já é a segunda linguagem mais popular no heroku, perdendo apenas para <a href="http://www.ruby-lang.org/">ruby</a>.</p>
 
 <iframe src="http://ba2.herokuapp.com/" width="800" height="600"></iframe>
 
 
-<h2>ZENO ROCHA - Um futuro chamado Web Components</h2>
+<h2>ZENO ROCHA &ndash; Um futuro chamado Web Components</h2>
 
 <p>Este ano o <a href="https://twitter.com/zenorocha">Zeno Rocha</a> falou sobre as cinco novas especificações: Templates, Decorators, Shadow DOM, Custom Elements e Imports. Zeno fez uma reflexão de como o Javascript evoluíu citando exemplos como Flash e JQuery Seletor que hoje podem ser substituídos por técnicas nativas. Falou sobre a tendência de reutilizar código através de componetes e mostrou como criar seus próprios componentes. Para finalizar, Zeno revelou mais um projeto open-source criado juntamente com <a href="https://twitter.com/bernarddeluna">Bernard de Luna</a> e <a href="https://twitter.com/eduardolundgren">Eduardo Lundgren</a>, o <a href="http://customelements.io/">Custom Elements</a>, uma galeria de web components.</p>
 
 <script async class="speakerdeck-embed" data-id="375ae900ee6101301719122e5a5beb4c" data-ratio="1.33333333333333" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
 
 
-<h2>ROBERT NYMAN -  Bringing the open web and APIs to mobile devices with Firefox OS</h2>
+<h2>ROBERT NYMAN &ndash;  Bringing the open web and APIs to mobile devices with Firefox OS</h2>
 
 <p>O <a href="https://twitter.com/robertnyman">Robert Nyman</a> começou falando sobre a Mozilla e, em seguida, apresentou o Firefox OS, que está chegando ao Brasil pela Telefônica. Por fim, ele apresentou a API do Firefox OS.</p>
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/25553346" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
 
 
-<h2>ANGELINA FABBRO - How to make mobile apps: Web developer REMIX</h2>
+<h2>ANGELINA FABBRO &ndash; How to make mobile apps: Web developer REMIX</h2>
 
 <p>A <a href="https://github.com/afabbro">Angelina Fabbro</a> encerrou o primeiro dia do evento desenvolvendo um aplicativo Firefox OS que buscava todos os Tweets com a tag #braziljs.</p>
 
 <p><a href="https://github.com/afabbro/fxos-websockets-notifications-app">fxos-websockets-notifications-app</a></p>
 
-<h2>Palestras - Segundo dia</h2>
+<h2>Palestras &ndash; Segundo dia</h2>
 
 <hr />
 
-<h2>DEMIAN BORBA - Buscando a melhor performance em Aplicativos Móveis com HTML5</h2>
+<h2>DEMIAN BORBA &ndash; Buscando a melhor performance em Aplicativos Móveis com HTML5</h2>
 
 <p>A palestra de abertura do segundo dia de evento foi a de <a href="https://twitter.com/demianborba">Demian Borba</a>, outra palestra sobre performance. Demian destacou que performance impacta em usabilidade e que o Yahoo aumenta seu tráfego em 9% para cada 400 milisegundos em melhoria de performance e que a Amazon aumenta sua receita em 1% para cada 100 milisegundos reduzidos. Ele ainda apresentou várias dicas para conseguir uma melhoria de desempenho e finalizou sua palestra falando sobre o Blackberry 10.</p>
 
 <script async class="speakerdeck-embed" data-id="7a1701b0ee390130460622df94f3aa7c" data-ratio="1.77777777777778" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
 
 
-<h2>JOSH HOLMES - The Perf Doctor is In</h2>
+<h2>JOSH HOLMES &ndash; The Perf Doctor is In</h2>
 
 <p>Quem sem dúvida surpreendeu foi <a href="https://twitter.com/joshholmes">Josh Holmes</a>, não é nada fácil representar a Microsoft e seu Internet Explorer em um evento de JavaScript. Com seu carisma e sua presença de palco, Josh conseguiu divertir a todos os presentes. Ele detalhou os sub-sistemas do IE e mostrou como eles interagem e como impactam em performance. A análise das métricas de performance das empresas de vendas de passagens aéreas serviu como exemplo para sua palestra. Para finalizar, ele falou sobre o <a href="http://msdn.microsoft.com/pt-br/performance/cc825801.aspx">Windows Performance Toolkit</a>, um conjuto de ferramentas para se analisar performance.</p>
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/25582676" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
 
 
-<h2>ALEXANDRE GAIGALAS - API Sex</h2>
+<h2>ALEXANDRE GAIGALAS &ndash; API Sex</h2>
 
 <p>Em seguida, tivemos a palestra do <a href="https://twitter.com/alganet">Alexandre Gaigalas</a>. Na sua palestra ele mostrou como mutações podem acontecer na natureza exemplificando o caso do liger, cruzamento de um leão com um tigre fêmea. Assim como na natureza, no mundo do software ocorrem mutações que podem gerar indivíduos melhores ou piores. Para exemplificar as mutações no JavaScript, ele cita o CORS, Pushstate e QuerySelectorAll.</p>
 
-<h2>JEAN CARLO EMER - O fantástico mundo do JavaScript</h2>
+<h2>JEAN CARLO EMER &ndash; O fantástico mundo do JavaScript</h2>
 
 <p>Na sua palestra, <a href="https://twitter.com/jcemer">Jean Carlo Emer</a> explora o fantástico mundo do JavaScript. Essa foi uma palestra que explorou os conceitos do JS, falou do paradigma OO com prototype, Solid, composição e Mixin. Vimos bastante exemplos de código CoffeeScript que está ganhando cada vez mais espaço.</p>
 
 <script async class="speakerdeck-embed" data-id="b22802a0ee490130c0c44edf7558915e" data-ratio="1.33333333333333" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
 
 
-<h2>THIBAULT IMBERT - Workers of the web</h2>
+<h2>THIBAULT IMBERT &ndash; Workers of the web</h2>
 
 <p>O <a href="https://twitter.com/thibault_imbert">Thibault Imbert</a> foi outro palestrante que demostrou bastante carisma, chegou falando sobre os artistas brasileiros que admira, um deles o Ed Motta. Ainda fez questão de chamar o <a href="https://www.facebook.com/leobetosouza">Leobeto</a> ao palco devido a sua semelhança com o artista. Na sua palestra, ele mostrou como aproveitar o poder das concorrências com a utilização de Web Workers.</p>
 
 <iframe src="https://dl.dropboxusercontent.com/u/7009356/Workers%20of%20the%20web%20-%20BrazilJS.pdf" width="800" height="600"></iframe>
 
 
-<h2>CARIDY PATINO - NodeJS, the good, the bad and the ugly</h2>
+<h2>CARIDY PATINO &ndash; NodeJS, the good, the bad and the ugly</h2>
 
-<p>Outra boa palestra foi a de <a href="https://twitter.com/caridy">Caridy Patino</a> sobre <a href="http://nodejs.org/">Nodejs</a>, ele destacou os pontos forte e fracos do node. Web applications e API&#8217;s são os tipos de aplicações mais indicadas para o uso do node devido a sua alta performance e concorrência. Por outro lado, o GC do node não é otimizado e debugar pode ser bastante difícil. A mensagem final é que qualquer aplicação pode ser feita com NodeJS, o maior desafio é conhecer as limitações da plataforma para evitar falhas em algumas das armadilhas.</p>
+<p>Outra boa palestra foi a de <a href="https://twitter.com/caridy">Caridy Patino</a> sobre <a href="http://nodejs.org/">Nodejs</a>, ele destacou os pontos forte e fracos do node. Web applications e API&rsquo;s são os tipos de aplicações mais indicadas para o uso do node devido a sua alta performance e concorrência. Por outro lado, o GC do node não é otimizado e debugar pode ser bastante difícil. A mensagem final é que qualquer aplicação pode ser feita com NodeJS, o maior desafio é conhecer as limitações da plataforma para evitar falhas em algumas das armadilhas.</p>
 
 <iframe src="https://dl.dropboxusercontent.com/u/31422156/braziljs-2013.pdf" width="800" height="600"></iframe>
 
 
-<h2>STOYAN STEFANOV - Reactive JavaScript</h2>
+<h2>STOYAN STEFANOV &ndash; Reactive JavaScript</h2>
 
 <p>Umas das palestras mais aguardadas foi a do <a href="https://twitter.com/stoyanstefanov">Stoyan</a>, ele é engenheiro do Facebook e autor de livros como o <a href="http://shop.oreilly.com/product/9780596806767.do">JavaScript Patterns</a>. Em sua palestra, ele falou sobre o <a href="http://facebook.github.io/react/">React</a>, ferramenta desenvolvida pelo facebook. O React é outra ferramenta baseada em Components, um ponto negativo é a presença de HTML dentro do JavaScript como ele demostrou através da utilização do <a href="http://jsx.github.io/">JSX</a>.</p>
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/25622424" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
 
 
-<h2>DOUGLAS CROCKFORD - Programming Style and Your Brain</h2>
+<h2>DOUGLAS CROCKFORD &ndash; Programming Style and Your Brain</h2>
 
 <p>Sem dúvida, a palestra mais aguardada do evento foi a do <a href="http://www.crockford.com/">Douglas Crockford</a>. Veterano do JavaScript, ele é responsável pela criação do formato <a href="http://www.json.org/">JSON</a> e da ferramenta <a href="http://www.jslint.com/">JSLint</a> além de ser autor do livro <a href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts</a>. Em sua palestra, Crockford se baseou na psicologia para fazer uma analogia entre Cabeça e Vísceras. A primeira sendo responsável por decisões racionáveis e a segunda por decisões instintivas. Segundo ele, programação é a atividade mais complexa que as pessoas executam, é preciso cabeça e vísceras. Como em toda linguagem, o JavaScript tem partes boas e ruins, através de exemplos ele mostrou como o JSLint avisa quando você está utilizando uma parte ruim.</p>
 
@@ -181,14 +252,14 @@
 
 <hr />
 
-<h2>AngularJS (Cirdes Henrique - Eventick e Ramon Victor -  Joy Street)</h2>
+<h2>AngularJS (Cirdes Henrique &ndash; Eventick e Ramon Victor &ndash;  Joy Street)</h2>
 
 <p>A palestra sobre <a href="http://angularjs.org/">AngularJS</a> foi feita sobre duas pespectivas. A primeira foi a minha, um desenvolvedor Ruby on Rails que encontrava dificuldades para organizar e testar seu código javascript. A segunda foi a de <a href="https://www.facebook.com/ramon.victor">Ramon</a>, desenvolvedor frontend com experiência em <a href="http://jquery.com/">Jquery</a> que buscava aumentar sua produtividade. O AngularJS ganhou muito popularidade recentemente, sendo o framework mais buscado no Google. Os 5 conceitos básicos do framework são: Client-Side Templates, MVC, Data Binding, Dependency Injection e Directives. Com angular é possível escrever código facilmente testável em apenas poucas linhas.</p>
 
 <script async class="speakerdeck-embed" data-id="406c42c0e77f013025e006b7ac3a0202" data-ratio="1.2994923857868" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
 
 
-<h2>Getting Started with Firefox OS (Guilherme Farias - MGR Tecnologia)</h2>
+<h2>Getting Started with Firefox OS (Guilherme Farias &ndash; MGR Tecnologia)</h2>
 
 <p><a href="https://www.facebook.com/Guiky">Guilherme Farias</a> falou um pouco sobre o novo <a href="http://www.mozilla.org/pt-BR/firefox/os/">Firefox OS</a>. A ideia é possibilitar o desenvolvimento de apps mobile utilizando HTML + CSS. O mais interessante foi descobrir que dentro do Firefox OS roda o <a href="http://pt.wikipedia.org/wiki/Gecko_Mozilla">Gecko</a>, engine de renderização do Firefox. Dessa forma, apps que rodam no firefox podem ser facilmente portados para o Firefox OS.</p>
 
@@ -203,7 +274,7 @@ O CasperJS é uma alternativa aos frameworks <a href="https://github.com/jnickla
 <script async class="speakerdeck-embed" data-id="e47176e0e76201309088261ea83b1a05" data-ratio="1.2994923857868" src="http://cirdes.github.com//speakerdeck.com/assets/embed.js"></script>
 
 
-<h2>Meteor (Flávio Junior - Barganhou.la)</h2>
+<h2>Meteor (Flávio Junior &ndash; Barganhou.la)</h2>
 
 <p>Sem dúvida o <a href="http://www.meteor.com/">Meteor</a> é um framework bastante promissor para se construir web apps, <a href="https://www.facebook.com/flaviojuvenal">Flávio Junior</a> demostrou suas caracteristicas e detalhou o funcionamento de uma aplicação de leaderboard.
 O framework é todo em Javascript, tanto a parte do servidor quanto a do cliente. Com o meteor é possível acessar dados persistidos em banco como se eles estivessem no navegador.</p>
@@ -211,7 +282,7 @@ O framework é todo em Javascript, tanto a parte do servidor quanto a do cliente
 <iframe src="http://www.slideshare.net/slideshow/embed_code/25262488" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
 
 
-<h2>Something about the future of JS (Luiz Tiago - MGR Tecnologia)</h2>
+<h2>Something about the future of JS (Luiz Tiago &ndash; MGR Tecnologia)</h2>
 
 <p>Na última palestra da noite, <a href="https://www.facebook.com/luiztiago">Luiz Tiago</a> falou sobre o futuro do JS. Através de um exemplo real, ele utilizou a api do Twitter para montar uma lista com os últimos tweets. Através da utilização de templates, proposto no último draft sobre <a href="http://www.w3.org/TR/2013/WD-components-intro-20130606/">Web Components</a>, Luiz Tiago falou das suas vantagens. Para finalizar, tivemos uma demostração do <a href="https://dvcs.w3.org/hg/dap/raw-file/default/light/Overview.html">Ambient Light Events</a>. Essa especificação, disponível no apenas no Firefox 22+ até o momento, permite que mudanças na intensidade de iluminação sejam detectadas. Durante a palestras, um demo de uma formiga que se movia apenas quando as luzes eram apagas foi apresentado.</p>
 
@@ -325,7 +396,7 @@ Durante um bom tempo fomos muito felizes com o AirBrake, sem dúvida foi o melho
 <p><code>heroku run rake db:seed --app app-name</code></p>
 
 <p>Pronto, seu errbit já está hospedado no heroku. Agora basta entrar nele utilizando o usuário e senha padrão e criar um novo projeto.
-Email: demo@errbit-demo.herokuapp.com
+Email: <a href="&#109;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#x64;&#x65;&#109;&#111;&#64;&#x65;&#x72;&#114;&#98;&#105;&#x74;&#x2d;&#x64;&#x65;&#109;&#111;&#46;&#x68;&#101;&#114;&#111;&#107;&#x75;&#97;&#112;&#112;&#46;&#x63;&#111;&#109;">&#100;&#101;&#x6d;&#111;&#64;&#x65;&#x72;&#x72;&#x62;&#x69;&#x74;&#45;&#x64;&#101;&#x6d;&#x6f;&#x2e;&#x68;&#101;&#x72;&#x6f;&#x6b;&#x75;&#x61;&#x70;&#112;&#x2e;&#x63;&#x6f;&#x6d;</a>
 Password: password</p>
 
 <p>Com projeto criado, basta adicionar a sua aplicação rails a gem <a href="https://github.com/cloudfuji/airbrake_user_attributes">airbrake_user_attributes</a> e o arquivo de configuração gerado ao criar um novo projeto.</p>
@@ -341,13 +412,13 @@ Password: password</p>
 
 <h2>Plug and Play Techcenter</h2>
 
-<p>A <a href="http://www.plugandplaytechcenter.com/">Plug and Play</a>, empresa localizada em Sunnyvale que funciona como incubarado e aceleradora de startups, tem como CEO e fundador o iraniano <a href="http://www.linkedin.com/pub/saeed-amidi/3/334/8">Saeed Amidi</a>. Ele participa ativamente na empresa, sempre sendo visto andando pelos corredores e nos eventos. Outra pessoa que vale a pena destacar é o <a href="http://www.linkedin.com/in/fernandogouveia">Fernando Gouveia</a>. Gerente de relações internacionais da empresa - e brasileiro - é uns dos reponsáveis por trazer o <a href="http://eventick.com.br">Eventick</a> para o vale.</p>
+<p>A <a href="http://www.plugandplaytechcenter.com/">Plug and Play</a>, empresa localizada em Sunnyvale que funciona como incubarado e aceleradora de startups, tem como CEO e fundador o iraniano <a href="http://www.linkedin.com/pub/saeed-amidi/3/334/8">Saeed Amidi</a>. Ele participa ativamente na empresa, sempre sendo visto andando pelos corredores e nos eventos. Outra pessoa que vale a pena destacar é o <a href="http://www.linkedin.com/in/fernandogouveia">Fernando Gouveia</a>. Gerente de relações internacionais da empresa &ndash; e brasileiro &ndash; é uns dos reponsáveis por trazer o <a href="http://eventick.com.br">Eventick</a> para o vale.</p>
 
 <p><img src="http://res.sys-con.com/story/oct12/2407271/10162012155_0.jpg" title="Plug and Play Techcenter" alt="Fachada da Plug and Play" /></p>
 
 <h3>A história</h3>
 
-<p>A história do Saeed e da sua empresa é inusitada. A família dele é proprietária de um prédio histórico na University Avenue, em Palo Alto, umas das ruas mais valorizadas e berço de várias startups. Por lidar com inquilinos de grande porte, a exemplo da Logitech, Google e Paypal, o empresário teve a oportunidade de investir em algumas dessas empresas e fazer fortuna. Acreditando que os seus prédios pussuem um <strong>Bom Karma</strong> - como relata na reportagem da <a href="http://www.nytimes.com/2007/09/14/technology/14landlord.html?pagewanted=all">NYTimes</a> - e querendo investir em mais empresas de tecnologia, resolveu abrir a Plug and Play em Sunnyvale.</p>
+<p>A história do Saeed e da sua empresa é inusitada. A família dele é proprietária de um prédio histórico na University Avenue, em Palo Alto, umas das ruas mais valorizadas e berço de várias startups. Por lidar com inquilinos de grande porte, a exemplo da Logitech, Google e Paypal, o empresário teve a oportunidade de investir em algumas dessas empresas e fazer fortuna. Acreditando que os seus prédios pussuem um <strong>Bom Karma</strong> &ndash; como relata na reportagem da <a href="http://www.nytimes.com/2007/09/14/technology/14landlord.html?pagewanted=all">NYTimes</a> &ndash; e querendo investir em mais empresas de tecnologia, resolveu abrir a Plug and Play em Sunnyvale.</p>
 
 <!-- more -->
 
@@ -366,7 +437,7 @@ Password: password</p>
 
 <h3>Eventick na PnP</h3>
 
-<p>Na primeira semana, assistimos a três dias de palestras que nos ajudaram a entender como funcionam as coisas no Vale. Foram várias palestras com <a href="http://en.wikipedia.org/wiki/Venture_capital">VC&#8217;s</a> explicando como preparar um <a href="http://en.wikipedia.org/wiki/Elevator_pitch">pitch</a> e quais os passos necessários para quem busca um investimento. Houve, também, palestras sobre como conseguir um visto para empreender nos Estados Unidos, falando sobre as leis que influenciam na abertura de empresas. Por fim, conhecemos vários casos de sucesso que passaram pela Plug and Play. Acredito que o maior deles seja o Paypal.</p>
+<p>Na primeira semana, assistimos a três dias de palestras que nos ajudaram a entender como funcionam as coisas no Vale. Foram várias palestras com <a href="http://en.wikipedia.org/wiki/Venture_capital">VC&rsquo;s</a> explicando como preparar um <a href="http://en.wikipedia.org/wiki/Elevator_pitch">pitch</a> e quais os passos necessários para quem busca um investimento. Houve, também, palestras sobre como conseguir um visto para empreender nos Estados Unidos, falando sobre as leis que influenciam na abertura de empresas. Por fim, conhecemos vários casos de sucesso que passaram pela Plug and Play. Acredito que o maior deles seja o Paypal.</p>
 
 <p><img src="https://lh4.googleusercontent.com/-WeNknUDX2LY/URqINrerlnI/AAAAAAAAGoU/nvp_njc457I/s640/IMG_20130212_100809.jpg" title="Bandeiras PnP" alt="Nacionalidades na PnP" /></p>
 ]]></content>
@@ -379,7 +450,7 @@ Password: password</p>
     <id>http://cirdes.github.com/blog/2013/01/20/impressoes-do-vale-do-silicio</id>
     <content type="html"><![CDATA[<h2>O Vale</h2>
 
-<p>Depois de uma semana aqui no vale, resolvi tentar entender porque esse lugar é tão diferente do resto do mundo e, especialmente, do Brasil. Umas das melhores explicações que escutei aqui no vale foi a seguinte &#8220;Ninguém sabe quem vai ser o próximo Facebook&#8221;.</p>
+<p>Depois de uma semana aqui no vale, resolvi tentar entender porque esse lugar é tão diferente do resto do mundo e, especialmente, do Brasil. Umas das melhores explicações que escutei aqui no vale foi a seguinte &ldquo;Ninguém sabe quem vai ser o próximo Facebook&rdquo;.</p>
 
 <h2>Contextualização</h2>
 
